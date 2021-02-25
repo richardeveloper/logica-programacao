@@ -4,7 +4,7 @@
 </p>
 <ul>
   <li><a href="https://github.com/Richardeveloper/Exercicios-FPC/tree/master/src/estrutura/sequencial">Estrutura sequencial</a></li>
-  <li>Estrutura condicional</li>
+  <li><a href="https://github.com/Richardeveloper/Exercicios-FPC/tree/master/src/estrutura/condicional">Estrutura condicional</a></li>
   <li>Estrutura de repetição</li>
   <li>Vetor</li>
   <li>Matriz</li>
