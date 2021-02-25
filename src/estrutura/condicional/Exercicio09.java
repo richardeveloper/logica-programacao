@@ -1,12 +1,12 @@
-//09. Um banco concederá um crédito especial aos seus clientes, de acordo com o saldo médio no último ano. Faça um programa que 
-//	  receba o saldo médio de um cliente e calcule o valor do crédito, de acordo com a tabela a seguir. Mostre o saldo médio e o 
-//    valor do crédito.
+//09. Um banco concederÃ¡ um crÃ©dito especial aos seus clientes, de acordo com o saldo mÃ©dio no Ãºltimo ano. FaÃ§a um programa que 
+//    receba o saldo mÃ©dio de um cliente e calcule o valor do crÃ©dito, de acordo com a tabela a seguir. Mostre o saldo mÃ©dio e o 
+//    valor do crÃ©dito.
 //
-//	  Saldo Médio				Percentual
-//    Acima de R$ 400,00 		30% do saldo médio
-//	  R$ 400,00 ~ R$ 300,00 	25% do saldo médio
-//    R$ 300,00 ~ R$ 200,00 	20% do saldo médio
-//    Até R$ 200,00 			10% do saldo médio
+//    Saldo MÃ©dio			Percentual
+//    Acima de R$ 400,00 		30% do saldo mÃ©dio
+//    R$ 400,00 ~ R$ 300,00 		25% do saldo mÃ©dio
+//    R$ 300,00 ~ R$ 200,00 		20% do saldo mÃ©dio
+//    AtÃ© R$ 200,00 			10% do saldo mÃ©dio
 
 package estrutura.condicional;
 
@@ -18,24 +18,24 @@ public class Exercicio09 {
 		
 		double saldo;
 		
-		System.out.println("Digite o valor do saldo médio: ");
+		System.out.println("Digite o valor do saldo mÃ©dio: ");
 		saldo = input.nextDouble();
 		
 		if(saldo > 400) {
-			System.out.println("Saldo médio: R$ "+saldo);
-			System.out.println("Crédito: R$ "+(saldo * 0.3));
+			System.out.println("Saldo mÃ©dio: R$ "+saldo);
+			System.out.println("CrÃ©dito: R$ "+(saldo * 0.3));
 		}
 		else if(saldo <= 400 && saldo > 300) {
-			System.out.println("Saldo médio: R$ "+saldo);
-			System.out.println("Crédito: R$ "+(saldo * 0.25));
+			System.out.println("Saldo mÃ©dio: R$ "+saldo);
+			System.out.println("CrÃ©dito: R$ "+(saldo * 0.25));
 		}
 		else if(saldo <= 300 && saldo > 200) {
-			System.out.println("Saldo médio: R$ "+saldo);
-			System.out.println("Crédito: R$ "+(saldo * 0.2));
+			System.out.println("Saldo mÃ©dio: R$ "+saldo);
+			System.out.println("CrÃ©dito: R$ "+(saldo * 0.2));
 		}
 		else {
-			System.out.println("Saldo médio: R$ "+saldo);
-			System.out.println("Crédito: R$ "+(saldo * 0.1));
+			System.out.println("Saldo mÃ©dio: R$ "+saldo);
+			System.out.println("CrÃ©dito: R$ "+(saldo * 0.1));
 		}
 		
 		input.close();
