@@ -8,4 +8,5 @@
   <li>Vetor</li>
   <li>Matriz</li>
 </ul>
+<br>
 <img src="https://images-na.ssl-images-amazon.com/images/I/81HITrV4GXL.jpg" height=800 width=600 >
