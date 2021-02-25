@@ -3,7 +3,7 @@
 <p>Lista de exercícios não resolvidos, na lingaguem Java do livro Fundamentos da Programação de Computadores 3ª Edição.
 </p>
 <ul>
-  <li>Estrutura sequencial</li>
+  <li><a href="https://github.com/Richardeveloper/Exercicios-FPC/tree/master/src/estrutura/sequencial">Estrutura sequencial</a></li>
   <li>Estrutura condicional</li>
   <li>Estrutura de repetição</li>
   <li>Vetor</li>
