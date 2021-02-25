@@ -1,6 +1,8 @@
 <h2>Exercícios de Lógica de Programação</h2>
 <br>
-<p>Lista de exercícios não resolvidos do livro Fundamentos da Programação de Computadores 3ª Edição</p>
+<p>Lista de exercícios não resolvidos do livro Fundamentos da Programação de Computadores 3ª Edição
+<br> feitos em Java.
+</p>
 <ul>
   <li>Estrutura sequencial</li>
   <li>Estrutura condicional</li>
