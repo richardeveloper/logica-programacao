@@ -10,14 +10,14 @@ public class Exercicio24 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		double reais, dolar, marco, libra;
+		float reais, dolar, marco, libra;
 		
 		System.out.println("Digite o valor em R$: ");
-		reais = input.nextDouble();
+		reais = input.nextFloat();
 		
-		dolar = reais / 1.80;
+		dolar = reais / 1.8f;
 		marco = reais / 2;
-		libra = reais / 3.57;
+		libra = reais / 3.57f;
 		
 		System.out.printf("Valor em doláres: %.2f\n",dolar);
 		System.out.printf("Valor em marco alemão: %.2f\n",marco);
