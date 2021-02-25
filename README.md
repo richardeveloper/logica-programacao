@@ -1,6 +1,6 @@
 <h2>Exercícios de Lógica de Programação</h2>
 <br>
-<p>Lista de exercícios não resolvidos, na lingaguem Java do livro Fundamentos da Programação de Computadores 3ª Edição.
+<p>Lista de exercícios resolvidos na lingaguem Java, do livro Fundamentos da Programação de Computadores 3ª Edição.
 </p>
 <ul>
   <li><a href="https://github.com/Richardeveloper/Exercicios-FPC/tree/master/src/estrutura/sequencial">Estrutura sequencial</a></li>
