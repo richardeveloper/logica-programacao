@@ -10,4 +10,4 @@
   <li>Matriz</li>
 </ul>
 <br>
-<img style="text-align: center;" src="https://images-na.ssl-images-amazon.com/images/I/81HITrV4GXL.jpg" height=500 width=400 >
+<img src="https://images-na.ssl-images-amazon.com/images/I/81HITrV4GXL.jpg" height=500 width=400 >
