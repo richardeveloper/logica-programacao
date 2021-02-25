@@ -1,11 +1,11 @@
-//10. O preÁo ao consumidor de um carro novo È a soma do custo de f·brica com a porcentagem do distribuidor e dos impostos, ambos 
-//    aplicados ao custo de f·brica. As porcentagens encontram-se na tabela a seguir. FaÁa um programa que receba o custo de f·brica 
-//    de um carro e mostre o preÁo ao consumidor.
+//10. O pre√ßo ao consumidor de um carro novo √© a soma do custo de f√°brica com a porcentagem do distribuidor e dos impostos, ambos 
+//    aplicados ao custo de f√°brica. As porcentagens encontram-se na tabela a seguir. Fa√ßa um programa que receba o custo de f√°brica 
+//    de um carro e mostre o pre√ßo ao consumidor.
 //
-//    Custo de F·brica						% do Distribuidor		% dos Impostos
-//    AtÈ R$ 12.000,00 						5% 						isento
-//	  Entre R$ 12.000,00 e R$ 25.000,00 	10% 					15%
-//    Acima de R$ 25.000,00 				15%						20%
+//    Custo de F√°brica						% do Distribuidor			% dos Impostos
+//    At√© R$ 12.000,00 						5% 					sento
+//    Entre R$ 12.000,00 e R$ 25.000,00 			10% 					15%
+//    Acima de R$ 25.000,00 					15%					20%
 
 package estrutura.condicional;
 
@@ -17,20 +17,20 @@ public class Exercicio10 {
 		
 		double custo, preco;
 		
-		System.out.println("Digite o valor do custo de f·brica do carro: ");
+		System.out.println("Digite o valor do custo de f√°brica do carro: ");
 		custo = input.nextDouble();
 		
 		if(custo <= 12000) {
 			preco = custo + (custo * 0.05);
-			System.out.println("PreÁo ao consumidor: R$ "+preco);
+			System.out.println("Pre√ßo ao consumidor: R$ "+preco);
 		}
 		else if(custo > 12000 && custo <= 25000) {
 			preco = custo + (custo * 0.1) + (custo * 0.15);
-			System.out.println("PreÁo ao consumidor: R$ "+preco);
+			System.out.println("Pre√ßo ao consumidor: R$ "+preco);
 		}
 		else {
 			preco = custo + (custo * 0.15) + (custo * 0.2);
-			System.out.println("PreÁo ao consumidor: R$ "+preco);
+			System.out.println("Pre√ßo ao consumidor: R$ "+preco);
 		}
 		
 		input.close();
