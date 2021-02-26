@@ -34,5 +34,6 @@ public class Exercicio10 {
 		}
 		
 		input.close();
+		
 	}
 }
