@@ -1,9 +1,9 @@
-//06. Faça um programa que receba dois números e execute uma das operações listadas a seguir, de acordo com a escolha do usuário. 
-//    Se for digitada uma opção inválida, mostre mensagem de erro e termine a execução do programa. As opções são:
+//06. FaÃ§a um programa que receba dois nÃºmeros e execute uma das operaÃ§Ãµes listadas a seguir, de acordo com a escolha do usuÃ¡rio. 
+//    Se for digitada uma opÃ§Ã£o invÃ¡lida, mostre mensagem de erro e termine a execuÃ§Ã£o do programa. As opÃ§Ãµes sÃ£o:
 //    
-//    1- O primeiro número elevado ao segundo número.
-//    2- Raiz quadrada de cada um dos números.
-//    3- Raiz cúbica de cada um dos números.
+//    1- O primeiro nÃºmero elevado ao segundo nÃºmero. 
+//    2- Raiz quadrada de cada um dos nÃºmeros.
+//    3- Raiz cÃºbica de cada um dos nÃºmeros.
 
 package estrutura.condicional;
 
@@ -16,33 +16,33 @@ public class Exercicio06 {
 		double n1, n2;
 		int opcao;
 		
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		n1 = input.nextDouble();
-		System.out.println("Digite o segundo número: ");
+		System.out.println("Digite o segundo nÃºmero: ");
 		n2 = input.nextDouble();
 		
 		System.out.println();
 		
-		System.out.println("DIGITE O NÚMERO DA OPERAÇÃO DESEJADA");
-		System.out.println("1- O primeiro número elevado ao segundo número");
-		System.out.println("2- Raiz quadrada de cada um dos números");
-		System.out.println("3- Raiz cúbica de cada um dos números");
+		System.out.println("DIGITE O NÃšMERO DA OPERAÃ‡ÃƒO DESEJADA");
+		System.out.println("1- O primeiro nÃºmero elevado ao segundo nÃºmero");
+		System.out.println("2- Raiz quadrada de cada um dos nÃºmeros");
+		System.out.println("3- Raiz cÃºbica de cada um dos nÃºmeros");
 		opcao = input.nextInt();
 		
 		switch (opcao) {
 		case 1:
-			System.out.println("Primeiro número elevado ao segundo número: "+Math.pow(n1, n2));
+			System.out.println("Primeiro nÃºmero elevado ao segundo nÃºmero: "+Math.pow(n1, n2));
 			break;
 		case 2:
-			System.out.println("Raiz quadrada do primeiro número: "+Math.sqrt(n1));
-			System.out.println("Raiz quadrada do segundo número: "+Math.sqrt(n2));
+			System.out.println("Raiz quadrada do primeiro nÃºmero: "+Math.sqrt(n1));
+			System.out.println("Raiz quadrada do segundo nÃºmero: "+Math.sqrt(n2));
 			break;
 		case 3:
-			System.out.println("Raiz quadrada do primeiro número: "+Math.cbrt(n1));
-			System.out.println("Raiz quadrada do segundo número: "+Math.cbrt(n2));
+			System.out.println("Raiz quadrada do primeiro nÃºmero: "+Math.cbrt(n1));
+			System.out.println("Raiz quadrada do segundo nÃºmero: "+Math.cbrt(n2));
 			break;
 		default:
-			System.out.println("Opção Inválida !");
+			System.out.println("OpÃ§Ã£o InvÃ¡lida !");
 			break;
 		}
 		
