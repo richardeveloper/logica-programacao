@@ -21,7 +21,7 @@ public class Exercicio07 {
 			System.out.println("Funcionário não tem direito ao reajuste.");
 		}
 		
-		input.close();
+		input.close(); 
 		
 	}
 }

@@ -46,6 +46,6 @@ public class Exercicio06 {
 			break;
 		}
 		
-		input.close();
+		input.close(); 
 	}
 }

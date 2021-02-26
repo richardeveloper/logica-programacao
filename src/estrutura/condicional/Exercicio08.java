@@ -24,7 +24,7 @@ public class Exercicio08 {
 			System.out.println("Salário reajustado: "+(salario * 1.15));
 		}
 		
-		input.close();
+		input.close(); 
 
 	}
 }

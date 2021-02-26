@@ -39,5 +39,6 @@ public class Exercicio09 {
 		}
 		
 		input.close();
+		
 	}
 }
