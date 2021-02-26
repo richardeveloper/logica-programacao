@@ -1,5 +1,5 @@
-//07. Uma empresa decide dar um aumento de 30% aos funcionários com salários inferiores a R$ 500,00. Faça um programa que receba o 
-//    salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso ele não tenha direito ao aumento.
+//07. Uma empresa decide dar um aumento de 30% aos funcionÃ¡rios com salÃ¡rios inferiores a R$ 500,00. FaÃ§a um programa que receba o  salÃ¡rio do funcionÃ¡rio e mostre o 
+//    valor do salÃ¡rio reajustado ou uma mensagem, caso ele nÃ£o tenha direito ao aumento.
 
 package estrutura.condicional;
 
@@ -11,14 +11,14 @@ public class Exercicio07 {
 		
 		double salario;
 		
-		System.out.println("Digite o salário do funcionário: ");
+		System.out.println("Digite o salÃ¡rio do funcionÃ¡rio: ");
 		salario = input.nextDouble();
 		
 		if(salario < 500) {
-			System.out.println("Salário reajustado: R$ "+(salario * 1.3));
+			System.out.println("SalÃ¡rio reajustado: R$ "+(salario * 1.3));
 		}
 		else {
-			System.out.println("Funcionário não tem direito ao reajuste.");
+			System.out.println("FuncionÃ¡rio nÃ£o tem direito ao reajuste.");
 		}
 		
 		input.close();
