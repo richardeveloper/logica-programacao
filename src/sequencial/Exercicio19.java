@@ -1,6 +1,8 @@
-//19. Sabe-se que, para iluminar de maneira correta os cômodos de uma casa, para cada m2, deve-se usar 18 W de potência. Faça um 
-//    programa que receba as duas dimensões de um cômodo (em metros), calcule e mostre a sua área (em m2) e a potência de 
-//    iluminação que deverá ser utilizada.
+/**
+ *  Sabe-se que, para iluminar de maneira correta os cÃµmodos de uma casa, para cada mÂ², deve-se usar 
+ *  18 W de potÃªncia. FaÃ§a um programa que receba as duas dimensÃµes de um cÃ´modo (em metros), calcule 
+ *  e mostre a sua Ã¡rea (em m2) e a potï¿½ncia de iluminaÃ§Ã£o que deverÃ¡ ser utilizada.
+ */
 
 package sequencial;
 
@@ -12,16 +14,17 @@ public class Exercicio19 {
 
 		double lado1, lado2, area, potencia;
 		
-		System.out.println("Digite o valor da primeira dimensão: ");
+		System.out.println("Digite o valor da primeira dimensÃ£o: ");
 		lado1 = input.nextDouble();
-		System.out.println("Digite o valor da segunda dimensão: ");
+		
+		System.out.println("Digite o valor da segunda dimensÃ£o: ");
 		lado2 = input.nextDouble();
 		
 		area = lado1 * lado2;
-		System.out.println("Dimensão do comôdo: "+area+" m²");
+		System.out.println("DimensÃ£o do comÃ´do: "+area+" mÂ²");
 		
 		potencia = area * 18;
-		System.out.println("Potência de iluminação: "+potencia+" W");
+		System.out.println("PotÃªncia de iluminaÃ§Ã£o: "+potencia+" W");
 		
 		input.close();
 	}

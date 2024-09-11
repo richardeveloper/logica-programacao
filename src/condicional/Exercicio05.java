@@ -1,13 +1,15 @@
-//05. Faça um programa que receba dois números e execute as operações listadas a seguir, de acordo com a escolha do usuário.
-//    
-//    1. Média entre os números digitados
-//    2. Diferença do maior pelo menor
-//    3. Produto entre os números digitados
-//	  4. Divisão do primeiro pelo segundo
-//    
-//    Se a opção digitada for inválida, mostre uma mensagem de erro e termine a execução do programa. Lembre-se de que, na operação 
-//    4, o segundo número deve ser diferente de zero.
-
+/**
+ *  FaÃ§a um programa que receba dois nÃºmeros e execute as operaÃ§Ãµees listadas a seguir, de acordo 
+ *  com a escolha do usuÃ¡rio.
+ *  
+ *  1. MÃ©dia entre os nÃºmeros digitados
+ *  2. DiferenÃ§a do maior pelo menor
+ *  3. Produto entre os nÃºmeros digitados
+ *  4. DivisÃ£o do primeiro pelo segundo
+ *  
+ *  Se a opÃ§Ã£o digitada for invÃ¡lida, mostre uma mensagem de erro e termine a execuÃ§Ã£o do programa. 
+ *  Lembre-se de que, na operaÃ§Ã£o 4, o segundo nÃºmero deve ser diferente de zero.
+ */
 
 package condicional;
 
@@ -20,24 +22,24 @@ public class Exercicio05 {
 		float n1, n2, operacao;
 		int opcao;
 		
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		n1 = input.nextFloat();
-		System.out.println("Digite o segundo número: ");
+		System.out.println("Digite o segundo nÃºmero: ");
 		n2 = input.nextFloat();
 		
 		System.out.println();
 		
-		System.out.println("DIGITE O NÚMERO DA OPERAÇÃO DESEJADA:");
-		System.out.println("1- Média entre os números digitados");
-		System.out.println("2- Diferença do maior pelo menor");
-		System.out.println("3- Produto entre os números digitados");
-		System.out.println("4- Divisão do primeiro pelo segundo");
+		System.out.println("DIGITE O Nï¿½MERO DA OPERAÃ‡ÃƒO DESEJADA:");
+		System.out.println("1- MÃ©dia entre os nÃºmeros digitados");
+		System.out.println("2- DiferenÃ§a do maior pelo menor");
+		System.out.println("3- Produto entre os nÃºmeros digitados");
+		System.out.println("4- DivisÃ£o do primeiro pelo segundo");
 		opcao = input.nextInt();
 		
 		switch (opcao) {
 			case 1:
 				operacao = (n1 + n2)/2;
-				System.out.println("Média: "+operacao);
+				System.out.println("MÃ©dia: "+operacao);
 				break;
 			case 2:
 				if(n1 > n2) {
@@ -46,7 +48,7 @@ public class Exercicio05 {
 				else {
 					operacao = n2 - n1;
 				}
-				System.out.println("Subtração: "+operacao);
+				System.out.println("SubtraÃ§Ã£o: "+operacao);
 				break;
 			case 3:
 				operacao = n1 * n2;
@@ -54,10 +56,10 @@ public class Exercicio05 {
 				break;
 			case 4:
 				operacao = n1 / n2;
-				System.out.println("Divisão: "+operacao);
+				System.out.println("DivisÃ£o: "+operacao);
 				break;
 			default:
-				System.out.println("Opção Inválida !");
+				System.out.println("Opï¿½ï¿½o Invï¿½lida !");
 				break;
 		}
 		

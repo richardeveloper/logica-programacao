@@ -1,4 +1,6 @@
-//01. Faça um programa que receba dois números, calcule e mostre a subtração do primeiro pelo segundo.
+/**
+ *  FaÃ§a um programa que receba dois nÃºmeros, calcule e mostre a subtraÃ§Ã£o do primeiro pelo segundo.
+ */
 
 package sequencial;
 import java.util.Scanner;
@@ -9,14 +11,14 @@ public class Exercicio01 {
 		
 		int n1, n2, sub;
 		
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		n1 = input.nextInt();
-		System.out.println("Digite o segundo número :");
+		System.out.println("Digite o segundo nÃºmero :");
 		n2 = input.nextInt();
 		
 		sub = n1 - n2;
 		
-		System.out.println("Subtração do primeiro pelo segundo: "+sub);
+		System.out.println("SubtraÃ§Ã£o do primeiro pelo segundo: "+sub);
 		
 		input.close();
 	}

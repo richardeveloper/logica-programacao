@@ -1,6 +1,9 @@
-//07. Faça um programa que receba o peso de uma pessoa, calcule e mostre: 
-//    a)o novo peso, se a pessoa engordar 15% sobre o peso digitado;
-//    b)o novo peso, se a pessoa emagrecer 20% sobre o peso digitado;
+/**
+ *  FaÃ§a um programa que receba o peso de uma pessoa, calcule e mostre:
+ *  
+ *  a) o novo peso, se a pessoa engordar 15% sobre o peso digitado;
+ *  b) o novo peso, se a pessoa emagrecer 20% sobre o peso digitado;
+ */
 
 package sequencial;
 
@@ -17,11 +20,11 @@ public class Exercicio07 {
 		
 		pesoEngordar = peso + (peso * 0.15);
 		
-		System.out.println("Caso engorde 15% do peso: "+pesoEngordar+" kg");
+		System.out.println("Caso engorde 15% do peso: " + pesoEngordar + " kg");
 		
 		pesoEmagrecer = peso - (peso * 0.2); 
 
-		System.out.println("Caso emagreça 20% do peso: "+pesoEmagrecer+" kg");
+		System.out.println("Caso emagreÃ§a 20% do peso: " + pesoEmagrecer + " kg");
 		
 		input.close();
 	}

@@ -1,5 +1,7 @@
-//12. Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade 
-//    de salários mínimos que esse funcionário ganha.
+/**
+ *  FaÃ§a um programa que receba o valor do salÃ¡rio mÃ­nimo e o valor do salÃ¡rio de um funcionÃ¡rio, 
+ *  calcule e mostre a quantidade de salÃ¡rios mÃ­nimos que esse funcionÃ¡rio ganha.
+ */
 
 package sequencial;
 
@@ -11,14 +13,15 @@ public class Exercicio12 {
 		
 		double salMinimo, salFuncionario, qtdeSalario;
 		
-		System.out.println("Digite o valor do salário minímo (R$): ");
+		System.out.println("Digite o valor do salÃ¡rio minÃ­mo (R$): ");
 		salMinimo = input.nextDouble();
-		System.out.println("Digite o valor do salário do funcionário (R$): ");
+		
+		System.out.println("Digite o valor do salÃ¡rio do funcionÃ¡rio (R$): ");
 		salFuncionario = input.nextDouble();
 		
 		qtdeSalario = salFuncionario/salMinimo;
 		
-		System.out.printf("Quantidade de salários mínimos que o funcionário recebe: %.1f",qtdeSalario);
+		System.out.printf("Quantidade de salÃ¡rios mÃ­nimos que o funcionÃ¡rio recebe: %.1f",qtdeSalario);
 		
 		input.close();
 	}

@@ -1,5 +1,7 @@
-//05. Faça um programa que receba o preço de um produto, calcule e mostre o novo preço do produto, sabendo-se que este recebeu um
-//    desconto de 10%
+/**
+ *  FaÃ§a um programa que receba o preÃ§o de um produto, calcule e mostre o novo preÃ§o do produto, 
+ *  sabendo-se que este recebeu um desconto de 10%.
+ */
 
 package sequencial;
 
@@ -11,12 +13,12 @@ public class Exercicio05 {
 		
 		double preco, novoPreco;
 		
-		System.out.println("Digite o preço do produto (R$):");
+		System.out.println("Digite o preÃ§o do produto (R$):");
 		preco = input.nextDouble();
 		
-		novoPreco = preco - (preco*0.1);
+		novoPreco = preco - (preco * 0.1);
 		
-		System.out.println("Novo preço do produto: R$ "+novoPreco);
+		System.out.println("Novo preÃ§o do produto: R$ "+novoPreco);
 		
 		input.close();
 	}

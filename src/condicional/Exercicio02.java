@@ -1,7 +1,11 @@
-//02. Faça um programa que receba duas notas, calcule e mostre a média aritmética e a mensagem que se encontra na tabela a seguir:
-//	  0,0 ~ 3,0 - Reprovado
-//    3,0 ~ 7,0 - Exame
-//    7,0 ~ 10,0 - Aprovado
+/**
+ * 	FaÃ§a um programa que receba duas notas, calcule e mostre a mÃ©dia aritmÃ©tica e a mensagem que
+ *  se encontra na tabela a seguir:
+ *
+ * 	0,0 ~ 3,0 - Reprovado
+ * 	3,0 ~ 7,0 - Exame
+ *  7,0 ~ 10,0 - Aprovado
+ */
 
 package condicional;
 
@@ -15,12 +19,13 @@ public class Exercicio02 {
 		
 		System.out.println("Digite a primeira nota: ");
 		n1 = input.nextFloat();
+		
 		System.out.println("Digite a segunda nota: ");
 		n2 = input.nextFloat();
 		
 		media = (n1 + n2) / 2;
 		
-		System.out.println("Média do aluno: "+media);
+		System.out.println("MÃ©dia do aluno: "+media);
 		
 		if(media <=10 && media >=7) {
 			System.out.println("Aluno Aprovado !");

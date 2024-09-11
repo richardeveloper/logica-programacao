@@ -1,5 +1,8 @@
-//06. Um funcionário recebe um salário fixo mais 4% de comissão sobre as vendas. Faça um programa que receba o salário fixo de um
-//	  funcionário e o valor de suas vendas, calcule e mostre a comissão e seu salário final.
+/**
+ *  Um funcionÃ¡rio recebe um salÃ¡rio fixo mais 4% de comissÃ£o sobre as vendas. FaÃ§a um programa que 
+ *  receba o salÃ¡rio fixo de um funcionÃ¡rio e o valor de suas vendas, calcule e mostre a comissÃ£o e 
+ *  seu salÃ¡rio final.
+ */
 
 package sequencial;
 
@@ -11,14 +14,14 @@ public class Exercicio06 {
 		
 		double salario, vendas, salarioFinal;
 		
-		System.out.println("Digite o salário do funcionário (R$): ");
+		System.out.println("Digite o salÃ¡rio do funcionÃ¡rio (R$): ");
 		salario = input.nextDouble();
 		System.out.println("Digite o total de vendas (R$): ");
 		vendas = input.nextDouble();
 		
 		salarioFinal = salario + (vendas * 0.04);
 		
-		System.out.println("Salário Final: R$ "+salarioFinal);
+		System.out.println("SalÃ¡rio Final: R$ "+salarioFinal);
 		
 		input.close();
 	}

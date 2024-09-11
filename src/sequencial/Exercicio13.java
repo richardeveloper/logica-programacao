@@ -1,4 +1,6 @@
-//13. Faça um programa que calcule e mostre a tabuada de um número digitado pelo usuário.
+/**
+ *  FaÃ§a um programa que calcule e mostre a tabuada de um nÃºmero digitado pelo usuÃ¡rio.
+ */
 
 package sequencial;
 
@@ -10,7 +12,7 @@ public class Exercicio13 {
 		
 		int num;
 		
-		System.out.print("Digite um número: ");
+		System.out.print("Digite um nÃºmero: ");
 		num = input.nextInt();
 		
 		System.out.println("Tabuada de "+num);

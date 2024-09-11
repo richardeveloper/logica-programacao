@@ -1,4 +1,6 @@
-//02. Faça um programa que receba três números, calcule e mostre a multiplicação desses números.
+/**
+ *  FaÃ§a um programa que receba trÃªs nÃºmeros, calcule e mostre a multiplicaÃ§Ã£o desses nÃºmeros.
+ */
 
 package sequencial;
 import java.util.Scanner;
@@ -9,16 +11,16 @@ public class Exercicio02 {
 		
 		int n1, n2, n3, mult;
 		
-		System.out.println("Digite o primeiro número :");
+		System.out.println("Digite o primeiro nÃºmero :");
 		n1 = input.nextInt();
-		System.out.println("Digite o segundo número :");
+		System.out.println("Digite o segundo nÃºmero :");
 		n2 = input.nextInt();
-		System.out.println("Digite o terceiro número :");
+		System.out.println("Digite o terceiro nÃºmero :");
 		n3 = input.nextInt();
 		
 		mult = n1 * n2 * n3;
 		
-		System.out.println("Multiplicação dos três números: "+mult);
+		System.out.println("MultiplicaÃ§Ã£o dos trÃªs nÃºmeros: "+mult);
 		
 		input.close();
 	}

@@ -1,4 +1,6 @@
-//03. Faça um programa que receba dois números e mostre o menor.
+/**
+ * 	FaÃ§a um programa que receba dois nÃºmeros e mostre o menor.
+ */
 
 package condicional;
 
@@ -10,19 +12,19 @@ public class Exercicio03 {
 		
 		int n1, n2;
 		
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		n1 = input.nextInt();
-		System.out.println("Digite o segundo número: ");
+		System.out.println("Digite o segundo nÃºmero: ");
 		n2 = input.nextInt();
 		
 		if(n1 > n2) {
-			System.out.println(n2+" é o menor !");
+			System.out.println(n2+" Ã© o menor !");
 		}
 		else if(n2 > n1){
-			System.out.println(n1+" é o menor !");
+			System.out.println(n1+" Ã© o menor !");
 		}
 		else {
-			System.out.println("Os números são iguais !");
+			System.out.println("Os nÃºmeros sÃ£o iguais !");
 		}
 		
 		input.close();

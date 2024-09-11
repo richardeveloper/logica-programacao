@@ -1,8 +1,11 @@
-//08. Faça um programa para calcular e mostrar o salário reajustado de um funcionário. O percentual de aumento encontra-se na tabela a seguir.
-//
-//    Salário				Percentual de Aumento
-//    Até R$ 300,00 			35%
-//    Acima de R$ 300,00 	        15%
+/**
+ *  Faça um programa para calcular e mostrar o salário reajustado de um funcionário. O percentual de 
+ *  aumento encontra-se na tabela a seguir.
+ *  
+ *  Salário:
+ *  Até R$ 300,00 (aumento de 35% )
+ *  Acima de R$ 300,00 (aumento de 15%)
+ */
 
 package condicional;
 
@@ -17,7 +20,7 @@ public class Exercicio08 {
 		System.out.println("Digite o salário do funcionário: ");
 		salario = input.nextDouble();
 		
-		if(salario <= 300) {
+		if (salario <= 300) {
 			System.out.println("Salário reajustado: R$ "+(salario * 1.35));
 		}
 		else {

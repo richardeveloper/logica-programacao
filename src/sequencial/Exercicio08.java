@@ -1,4 +1,6 @@
-//08. Faça um programa que receba o peso de uma pessoa em quilos e mostre o peso em gramas.
+/**
+ *  FaÃ§a um programa que receba o peso de uma pessoa em quilos e mostre o peso em gramas.
+ */
 
 package sequencial;
 

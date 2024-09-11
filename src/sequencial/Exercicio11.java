@@ -1,4 +1,7 @@
-//11. FaÁa um programa que calcule e mostre a ·rea de um losango. Sabe-se que A = (diagonal maior * diagonal menor)/2;
+/**
+ *  Fa√ßa um programa que calcule e mostre a √°rea de um losango. Sabe-se que 
+ *  A = (diagonal maior * diagonal menor)/2;
+ */
 
 package sequencial;
 
@@ -12,12 +15,13 @@ public class Exercicio11 {
 		
 		System.out.println("Digite o valor da diagonal maior: ");
 		dMaior = input.nextInt();
+		
 		System.out.println("Digite o valor da diagonal menor: ");
 		dMenor = input.nextInt();
 		
-		area = (dMaior * dMenor)/2;
+		area = (dMaior * dMenor) / 2;
 		
-		System.out.println("¡rea do losango: "+area);
+		System.out.println("√Årea do losango: "+area);
 		
 		input.close();
 	}

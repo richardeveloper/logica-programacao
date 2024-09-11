@@ -1,5 +1,7 @@
-//18. Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em Fahrenheit. Sabe-se que 
-//    F = 180*(C + 32)/100.
+/**
+ *  FaÃ§a um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em 
+ *  Fahrenheit. Sabe-se que F = 180*(C + 32)/100.
+ */
 
 package sequencial;
 
@@ -11,12 +13,12 @@ public class Exercicio18 {
 		
 		double celsius, fahreheit;
 		
-		System.out.println("Digite uma temperatura (°C): ");
+		System.out.println("Digite uma temperatura (ï¿½C): ");
 		celsius = input.nextDouble();
 		
 		fahreheit = 180 * (celsius + 32)/100;
 		
-		System.out.println("Temperatura em Fahrenheit: "+fahreheit+"°");
+		System.out.println("Temperatura em Fahrenheit: "+fahreheit+"ï¿½");
 		
 		input.close();
 	}

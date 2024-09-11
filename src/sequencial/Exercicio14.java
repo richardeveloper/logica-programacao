@@ -1,8 +1,12 @@
-//14. Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
-//    a) a idade dessa pessoa em anos;
-//    b) a idade dessa pessoa em meses;
-//    c) a idade dessa pessoa em dias;
-//    d) a idade dessa pessoa em semanas.
+/**
+ *  FaÃ§a um programa que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre:
+ *  
+ *  a) a idade dessa pessoa em anos;
+ *  b) a idade dessa pessoa em meses;
+ *  c) a idade dessa pessoa em dias;
+ *  d) a idade dessa pessoa em semanas. 
+ */
+
 
 package sequencial;
 
@@ -16,6 +20,7 @@ public class Exercicio14 {
 		
 		System.out.println("Digite o ano de nascimento: ");
 		anoNascimento = input.nextInt();
+		
 		System.out.println("Digite o ano atual: ");
 		anoAtual = input.nextInt();
 		

@@ -1,5 +1,7 @@
-//13. Faça um programa que receba o preço de um produto, calcule e mostre, de acordo com as tabelas a seguir, o novo preço e a 
-//    classificação.
+/**
+ *  FaÃ§a um programa que receba o preÃ§o de um produto, calcule e mostre, de acordo com as tabelas a 
+ *  seguir, o novo preÃ§o e a classificaÃ§Ã£o.
+ */
 
 package condicional;
 
@@ -11,29 +13,29 @@ public class Exercicio13 {
 		
 		float preco, novoPreco = 0;
 		
-		System.out.println("Digite o preço do produto: ");
+		System.out.println("Digite o preÃ§o do produto: ");
 		preco = input.nextFloat();
 		
-		if(preco <= 50) {
+		if (preco <= 50) {
 			novoPreco = preco * 1.05f;
-			System.out.println("Novo preço: R$ "+novoPreco);
+			System.out.println("Novo preÃ§o: R$ "+novoPreco);
 		}
-		else if(preco > 50 && preco <= 100) {
+		else if (preco > 50 && preco <= 100) {
 			novoPreco = preco * 1.10f;
-			System.out.println("Novo preço: R$ "+novoPreco);
+			System.out.println("Novo preÃ§o: R$ "+novoPreco);
 		}
-		else if(preco > 100) {
+		else if (preco > 100) {
 			novoPreco = preco * 1.15f;
-			System.out.println("Novo preço: R$ "+novoPreco);
+			System.out.println("Novo preï¿½o: R$ "+novoPreco);
 		}
 		
-		if(novoPreco <= 80) {
+		if (novoPreco <= 80) {
 			System.out.println("Produto Barato");
 		}
-		else if(novoPreco > 80 && novoPreco <= 120) {
+		else if (novoPreco > 80 && novoPreco <= 120) {
 			System.out.println("Produto Normal");
 		}
-		else if(novoPreco > 120 && novoPreco <= 200) {
+		else if (novoPreco > 120 && novoPreco <= 200) {
 			System.out.println("Produto Caro");
 		}
 		else {

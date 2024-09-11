@@ -1,4 +1,7 @@
-//16. FaÁa um programa que receba o valor dos catetos de um tri‚ngulo, calcule e mostre o valor da hipotenusa.
+/**
+ *  Fa√ßa um programa que receba o valor dos catetos de um tri√¢ngulo, calcule e mostre o valor da 
+ *  hipotenusa.
+ */
 
 package sequencial;
 
@@ -12,6 +15,7 @@ public class Exercicio16 {
 		
 		System.out.println("Digite o valor do cateto maior: ");
 		cateto1 = input.nextDouble();
+		
 		System.out.println("Digite o valor do cateto menor: ");
 		cateto2 = input.nextDouble();
 		

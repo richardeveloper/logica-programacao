@@ -1,4 +1,6 @@
-//10. FaÁa um programa que calcule e mostre a ·rea de um quadrado. Sabe-se que A = lado * lado.
+/**
+ *  Fa√ßa um programa que calcule e mostre a √°rea de um quadrado. Sabe-se que A = lado * lado.
+ */
 
 package sequencial;
 
@@ -15,7 +17,7 @@ public class Exercicio10 {
 		
 		area = lado * lado;
 		
-		System.out.println("¡rea do quadrado: "+area);
+		System.out.println("√Årea do quadrado: "+area);
 		
 		input.close();
 	}

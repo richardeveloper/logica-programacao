@@ -1,5 +1,8 @@
-//20. FaÁa um programa que receba a medida do ‚ngulo formado por uma escada apoiada no ch„o e a dist‚ncia em que a escada est· da 
-//    parede, calcule e mostre a medida da escada para que se possa alcanÁar sua ponta.
+/**
+ *  Fa√ßa um programa que receba a medida do √¢ngulo formado por uma escada apoiada no ch√£o e a 
+ *  dist√¢ncia em que a escada est√° da parede, calcule e mostre a medida da escada para que se possa 
+ *  alcan√ßar sua ponta.
+ */
 
 package sequencial;
 
@@ -12,9 +15,10 @@ public class Exercicio20 {
 		int angulo;
 		double distancia, medida;
 		
-		System.out.println("Digite o ‚ngulo formado pela escada: ");
+		System.out.println("Digite o √¢ngulo formado pela escada: ");
 		angulo = input.nextInt();
-		System.out.println("Digite a dist‚ncia da escada para a parede: ");
+		
+		System.out.println("Digite a dist√¢ncia da escada para a parede: ");
 		distancia = input.nextDouble();
 		
 		medida = distancia / Math.sin(angulo);

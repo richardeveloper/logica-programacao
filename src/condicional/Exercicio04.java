@@ -1,4 +1,6 @@
-//04. Faça um programa que receba três números e mostre o maior.
+/**
+ *  FaÃ§a um programa que receba trÃªs nÃºmeros e mostre o maior.
+ */
 
 package condicional;
 
@@ -10,21 +12,23 @@ public class Exercicio04 {
 		
 		int n1, n2, n3;
 		
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		n1 = input.nextInt();
-		System.out.println("Digite o segundo número: ");
+		
+		System.out.println("Digite o segundo nÃºmero: ");
 		n2 = input.nextInt();
-		System.out.println("Digite o terceiro número: ");
+		
+		System.out.println("Digite o terceiro nÃºmero: ");
 		n3 = input.nextInt();
 		
 		if(n1 > n2 && n1 > n3) {
-			System.out.println(n1+" é o maior !");
+			System.out.println(n1 + " Ã© o maior !");
 		}
 		else if(n2 > n1 && n2 > n3){
-			System.out.println(n2+" é o maior !");
+			System.out.println(n2 + " Ã© o maior !");
 		}
 		else {
-			System.out.println(n3+" é o maior !");
+			System.out.println(n3 + " Ã© o maior !");
 		}
 		
 		input.close();

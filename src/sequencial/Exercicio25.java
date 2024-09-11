@@ -1,7 +1,11 @@
-//25. FaÁa um programa que receba uma hora (uma vari·vel para hora e outra para minutos), calcule e mostre:
-//    a) a hora digitada convertida em minutos;
-//    b) o total dos minutos, ou seja, os minutos digitados mais a convers„o anterior;
-//    c) o total dos minutos convertidos em segundos.
+/**
+ *  Fa√ßa um programa que receba uma hora (uma vari√°vel para hora e outra para minutos), calcule e 
+ *  mostre:
+ *  
+ *  a) a hora digitada convertida em minutos;
+ *  b) o total dos minutos, ou seja, os minutos digitados mais a convers√£o anterior;
+ *  c) o total dos minutos convertidos em segundos.
+ */
 
 package sequencial;
 
@@ -13,9 +17,10 @@ public class Exercicio25 {
 		
 		int horas, minutos, totalHoras, totalMinutos;
 		
-		System.out.println("Digite a hora do hor·rio: ");
+		System.out.println("Digite a hora do hor√°rio: ");
 		horas = input.nextInt();
-		System.out.println("Digite os minutos do hor·rio:");
+		
+		System.out.println("Digite os minutos do hor√°rio: ");
 		minutos = input.nextInt();
 		
 		totalHoras = horas * 60;

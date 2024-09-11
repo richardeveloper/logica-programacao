@@ -1,7 +1,10 @@
-//17. FaÁa um programa que receba o raio, calcule e mostre: 
-//    a) o comprimento de uma esfera; sabe-se que C = 2* pi * R;
-//    b) a ·rea de uma esfera; sabe-se que A = pi * R≤
-//    c) o volume de uma esfera; sabe-se que V = 3/4 * pi * R≥
+/**
+ *  Fa√ßa um programa que receba o raio, calcule e mostre:
+ *  
+ *  a) o comprimento de uma esfera; sabe-se que C = 2* pi * R;
+ *  b) a √°rea de uma esfera; sabe-se que A = pi * R¬≤
+ *  c) o volume de uma esfera; sabe-se que V = 3/4 * pi * R¬≤
+ */
 
 package sequencial;
 
@@ -21,7 +24,7 @@ public class Exercicio17 {
 		volume = 3.0/4 * Math.PI * Math.pow(raio, 3);
 
 		System.out.println("Comprimento da esfera: "+comprimento);
-		System.out.println("¡rea da esfera: "+area);
+		System.out.println("√Årea da esfera: "+area);
 		System.out.println("Volume da esfera: "+volume);
 		
 		input.close();

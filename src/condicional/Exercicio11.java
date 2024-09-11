@@ -1,5 +1,7 @@
-//11. Faça um programa que receba o salário atual de um funcionário e, usando a tabela a seguir, calcule e mostre o valor do aumento
-//    e o novo salário.
+/**
+ *  FaÃ§a um programa que receba o salÃ¡rio atual de um funcionÃ¡rio e, usando a tabela a seguir, 
+ *  calcule e mostre o valor do aumento e o novo salÃ¡rio.
+ */
 
 package condicional;
 
@@ -11,23 +13,23 @@ public class Exercicio11 {
 		
 		double salario;
 		
-		System.out.println("Digite o salário do funcionário: ");
+		System.out.println("Digite o salÃ¡rio do funcionÃ¡rio: ");
 		salario = input.nextDouble();
 		
-		if(salario <= 300) {
+		if (salario <= 300) {
 			System.out.println("Valor do aumento: R$ "+(salario * 0.15));
-			System.out.println("Novo salário: R$ "+(salario * 1.15));
+			System.out.println("Novo salÃ¡rio: R$ "+(salario * 1.15));
 		}
-		else if(salario > 300 && salario < 600) {
+		else if (salario > 300 && salario < 600) {
 			System.out.println("Valor do aumento: R$ "+(salario * 0.10));
-			System.out.println("Novo salário: R$ "+(salario * 1.10));
+			System.out.println("Novo salÃ¡rio: R$ "+(salario * 1.10));
 		}
-		else if(salario >= 600 && salario <= 900) {
+		else if (salario >= 600 && salario <= 900) {
 			System.out.println("Valor do aumento: R$ "+(salario * 0.05));
-			System.out.println("Novo salário: R$ "+(salario * 1.05));
+			System.out.println("Novo salÃ¡rio: R$ "+(salario * 1.05));
 		}
 		else {
-			System.out.println("Funcionário não tem direito ao aumento.");
+			System.out.println("FuncionÃ¡rio nÃ£o tem direito ao aumento.");
 		}
 		
 		input.close();

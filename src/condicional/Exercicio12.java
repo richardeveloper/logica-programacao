@@ -1,5 +1,8 @@
-//12. FaÁa um programa que receba o sal·rio bruto de um funcion·rio e, usando a tabela a seguir, calcule e mostre o valor a receber.
-//	  Sabe-se que este È composto pelo sal·rio bruto acrescido de gratificaÁ„o e descontado o imposto de 7% sobre o sal·rio.
+/**
+ *  Fa√ßa um programa que receba o sal√°rio bruto de um funcion√°rio e, usando a tabela a seguir, 
+ *  calcule e mostre o valor a receber. Sabe-se que este √© composto pelo sal√°rio bruto acrescido de 
+ *  gratifica√ß√£o e descontado o imposto de 7% sobre o sal√°rio.
+ */
 
 package condicional;
 
@@ -12,29 +15,27 @@ public class Exercicio12 {
 		double salario, gratificacao, novoSalario;
 		double imposto = 0.07;
 		
-		System.out.println("Digite o sal·rio do funcion·rio: ");
+		System.out.println("Digite o sal√°rio do funcion√°rio: ");
 		salario = input.nextDouble();
 		
-		if(salario <= 350) {
+		if (salario <= 350) {
 			gratificacao = 100;
 			novoSalario = salario + gratificacao - (salario * imposto);
-			System.out.println("Novo sal·rio: R$ "+novoSalario);
 		}
-		else if(salario > 350 && salario < 600) {
+		else if (salario > 350 && salario < 600) {
 			gratificacao = 75;
 			novoSalario = salario + gratificacao - (salario * imposto);
-			System.out.println("Novo sal·rio: R$ "+novoSalario);
 		}
-		else if(salario >= 600 && salario <= 900) {
+		else if (salario >= 600 && salario <= 900) {
 			gratificacao = 50;
 			novoSalario = salario + gratificacao - (salario * imposto);
-			System.out.println("Novo sal·rio: R$ "+novoSalario);
 		}
 		else {
 			gratificacao = 35;
 			novoSalario = salario + gratificacao - (salario * imposto);
-			System.out.println("Novo sal·rio: R$ "+novoSalario);
 		}
+		
+		System.out.println("Novo sal√°rio: R$ " + novoSalario);
 		
 		input.close();
 		
