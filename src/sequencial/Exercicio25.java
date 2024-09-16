@@ -1,12 +1,3 @@
-/**
- *  Faça um programa que receba uma hora (uma variável para hora e outra para minutos), calcule e 
- *  mostre:
- *  
- *  a) a hora digitada convertida em minutos;
- *  b) o total dos minutos, ou seja, os minutos digitados mais a conversão anterior;
- *  c) o total dos minutos convertidos em segundos.
- */
-
 package sequencial;
 
 import java.util.Scanner;
@@ -26,11 +17,10 @@ public class Exercicio25 {
 		totalHoras = horas * 60;
 		totalMinutos = totalHoras + minutos;
 		
-		System.out.println("Hora convertida em minutos: "+totalHoras);
-		System.out.println("Total dos minutos: "+totalMinutos);
-		System.out.println("Total do minutos convertidos em segundos: "+(totalMinutos*60));
+		System.out.println("Hora convertida em minutos: " + totalHoras);
+		System.out.println("Total dos minutos: " + totalMinutos);
+		System.out.println("Total do minutos convertidos em segundos: " + (totalMinutos * 60));
 		
 		input.close();
-		
 	}
 }

@@ -1,8 +1,3 @@
-/**
- *  Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas notas, 
- *  considerando peso 2 para a primeira e peso 3 para a segunda.
- */
-
 package sequencial;
 
 import java.util.Scanner;
@@ -20,7 +15,7 @@ public class Exercicio04 {
 		System.out.println("Digite a segunda nota: ");
 		n2 = input.nextInt();
 		
-		media = (n1*2 + n2 *3)/5;
+		media = (n1*2 + n2 *3) / 5;
 		
 		System.out.println("Média Ponderada: "+media);
 		

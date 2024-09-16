@@ -1,8 +1,3 @@
-/**
- *  Faça um programa que receba a medida de dois ângulos de um triÂngulo, calcule e mostre a medida 
- *  do terceiro ângulo. Sabe-se que a soma dos ângulos de um triângulo é 180 graus.
- */
-
 package sequencial;
 
 import java.util.Scanner;
@@ -21,7 +16,7 @@ public class Exercicio23 {
 	
 		angulo3 = 180 - (angulo1 + angulo2);
 		
-		System.out.println("Valor do terceiro ângulo: "+angulo3);
+		System.out.println("Valor do terceiro ângulo: " + angulo3);
 		
 		input.close();
 	}

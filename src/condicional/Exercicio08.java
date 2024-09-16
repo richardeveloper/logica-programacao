@@ -1,12 +1,3 @@
-/**
- *  Faça um programa para calcular e mostrar o salário reajustado de um funcionário. O percentual de 
- *  aumento encontra-se na tabela a seguir.
- *  
- *  Salário:
- *  Até R$ 300,00 (aumento de 35% )
- *  Acima de R$ 300,00 (aumento de 15%)
- */
-
 package condicional;
 
 import java.util.Scanner;

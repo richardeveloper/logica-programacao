@@ -1,8 +1,3 @@
-/**
- *  Faça um programa que calcule e mostre a área de um losango. Sabe-se que 
- *  A = (diagonal maior * diagonal menor)/2;
- */
-
 package sequencial;
 
 import java.util.Scanner;
@@ -21,7 +16,7 @@ public class Exercicio11 {
 		
 		area = (dMaior * dMenor) / 2;
 		
-		System.out.println("Área do losango: "+area);
+		System.out.println("Área do losango: " + area);
 		
 		input.close();
 	}

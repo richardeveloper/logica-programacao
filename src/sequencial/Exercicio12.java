@@ -1,8 +1,3 @@
-/**
- *  Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário, 
- *  calcule e mostre a quantidade de salários mínimos que esse funcionário ganha.
- */
-
 package sequencial;
 
 import java.util.Scanner;
@@ -21,7 +16,7 @@ public class Exercicio12 {
 		
 		qtdeSalario = salFuncionario/salMinimo;
 		
-		System.out.printf("Quantidade de salários mínimos que o funcionário recebe: %.1f",qtdeSalario);
+		System.out.printf("Quantidade de salários mínimos que o funcionário recebe: %.1f", qtdeSalario);
 		
 		input.close();
 	}

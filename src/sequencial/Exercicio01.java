@@ -1,8 +1,5 @@
-/**
- *  Faça um programa que receba dois números, calcule e mostre a subtração do primeiro pelo segundo.
- */
-
 package sequencial;
+
 import java.util.Scanner;
 
 public class Exercicio01 {
@@ -13,6 +10,7 @@ public class Exercicio01 {
 		
 		System.out.println("Digite o primeiro número: ");
 		n1 = input.nextInt();
+
 		System.out.println("Digite o segundo número :");
 		n2 = input.nextInt();
 		

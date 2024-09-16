@@ -1,10 +1,5 @@
-/**
- *  Faça um programa que receba dois números, calcule e mostre a divisão do primeiro pelo segundo. 
- *  Sabe-se que o segundo número não pode ser zero, portanto não é necessário se preocupar com 
- *  validações.
- */
-
 package sequencial;
+
 import java.util.Scanner;
 
 public class Exercicio03 {
@@ -24,6 +19,5 @@ public class Exercicio03 {
 		System.out.println("Divisão do primeiro número pelo segundo: "+div);
 		
 		input.close();
-
 	}
 }

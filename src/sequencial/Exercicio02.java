@@ -1,8 +1,5 @@
-/**
- *  Faça um programa que receba três números, calcule e mostre a multiplicação desses números.
- */
-
 package sequencial;
+
 import java.util.Scanner;
 
 public class Exercicio02 {
@@ -13,8 +10,10 @@ public class Exercicio02 {
 		
 		System.out.println("Digite o primeiro número :");
 		n1 = input.nextInt();
+
 		System.out.println("Digite o segundo número :");
 		n2 = input.nextInt();
+
 		System.out.println("Digite o terceiro número :");
 		n3 = input.nextInt();
 		

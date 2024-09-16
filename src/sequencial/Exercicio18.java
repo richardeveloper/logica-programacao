@@ -1,8 +1,3 @@
-/**
- *  Faça um programa que receba uma temperatura em Celsius, calcule e mostre essa temperatura em 
- *  Fahrenheit. Sabe-se que F = 180*(C + 32)/100.
- */
-
 package sequencial;
 
 import java.util.Scanner;
@@ -18,7 +13,7 @@ public class Exercicio18 {
 		
 		fahreheit = 180 * (celsius + 32)/100;
 		
-		System.out.println("Temperatura em Fahrenheit: "+fahreheit+"�");
+		System.out.println("Temperatura em Fahrenheit: " + fahreheit + "º");
 		
 		input.close();
 	}

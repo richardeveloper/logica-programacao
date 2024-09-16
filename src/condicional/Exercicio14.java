@@ -1,8 +1,3 @@
-/**
- *  Faça um programa que receba o salário de um funcionário e, usando a tabela a seguir, calcule e 
- *  mostre o novo salário. 
- */
-
 package condicional;
 
 import java.util.Scanner;

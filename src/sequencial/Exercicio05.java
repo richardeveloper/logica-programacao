@@ -1,8 +1,3 @@
-/**
- *  Faça um programa que receba o preço de um produto, calcule e mostre o novo preço do produto, 
- *  sabendo-se que este recebeu um desconto de 10%.
- */
-
 package sequencial;
 
 import java.util.Scanner;

@@ -1,7 +1,3 @@
-/**
- *  Faça um programa que receba três números e mostre o maior.
- */
-
 package condicional;
 
 import java.util.Scanner;

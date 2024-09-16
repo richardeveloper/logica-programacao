@@ -1,7 +1,3 @@
-/**
- *  Faça um programa que receba o peso de uma pessoa em quilos e mostre o peso em gramas.
- */
-
 package sequencial;
 
 import java.util.Scanner;

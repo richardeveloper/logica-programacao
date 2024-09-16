@@ -1,8 +1,3 @@
-/**
- * 	Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética 
- * 	das notas e a mensagem de aprovado oureprovado, considerando para aprovação média 7.
- */
-
 package condicional;
 
 import java.util.Scanner;

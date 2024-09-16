@@ -1,9 +1,3 @@
-/**
- *  João recebeu seu salário e precisa pagar duas contas atrasadas. Em razão do atraso, ele deverá 
- *  pagar multa de 2% sobre cada conta. Faça um programa que calcule e mostre quanto restará do 
- *  salário de João.
- */
-
 package sequencial;
 
 import java.util.Scanner;
@@ -25,7 +19,7 @@ public class Exercicio15 {
 		
 		restante = salario - (conta1 * 1.02 + conta2 * 1.02);
 		
-		System.out.printf("Restante do salário: R$ %.2f",restante);
+		System.out.printf("Restante do salário: R$ %.2f", restante);
 		
 		input.close();
 		

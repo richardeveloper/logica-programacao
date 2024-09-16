@@ -1,7 +1,3 @@
-/**
- * 	Faça um programa que receba dois números e mostre o menor.
- */
-
 package condicional;
 
 import java.util.Scanner;

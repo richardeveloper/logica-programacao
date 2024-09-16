@@ -1,9 +1,3 @@
-/**
- *  Faça um programa que receba a medida do ângulo formado por uma escada apoiada no chão e a 
- *  distância em que a escada está da parede, calcule e mostre a medida da escada para que se possa 
- *  alcançar sua ponta.
- */
-
 package sequencial;
 
 import java.util.Scanner;
@@ -22,7 +16,7 @@ public class Exercicio20 {
 		distancia = input.nextDouble();
 		
 		medida = distancia / Math.sin(angulo);
-		System.out.println("Medida da escada: "+medida);
+		System.out.println("Medida da escada: " + medida);
 		
 		input.close();
 	}
