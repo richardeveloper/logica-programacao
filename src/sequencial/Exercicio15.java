@@ -22,6 +22,5 @@ public class Exercicio15 {
 		System.out.printf("Restante do salário: R$ %.2f", restante);
 		
 		input.close();
-		
 	}
 }

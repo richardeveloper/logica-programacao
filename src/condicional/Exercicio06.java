@@ -25,15 +25,15 @@ public class Exercicio06 {
 		
 		switch (opcao) {
 		case 1:
-			System.out.println("Primeiro número elevado ao segundo número: "+Math.pow(n1, n2));
+			System.out.println("Primeiro número elevado ao segundo número: " + Math.pow(n1, n2));
 			break;
 		case 2:
-			System.out.println("Raiz quadrada do primeiro número: "+Math.sqrt(n1));
-			System.out.println("Raiz quadrada do segundo número: "+Math.sqrt(n2));
+			System.out.println("Raiz quadrada do primeiro número: " + Math.sqrt(n1));
+			System.out.println("Raiz quadrada do segundo número: " + Math.sqrt(n2));
 			break;
 		case 3:
-			System.out.println("Raiz quadrada do primeiro número: "+Math.cbrt(n1));
-			System.out.println("Raiz quadrada do segundo número: "+Math.cbrt(n2));
+			System.out.println("Raiz quadrada do primeiro número: " + Math.cbrt(n1));
+			System.out.println("Raiz quadrada do segundo número: " + Math.cbrt(n2));
 			break;
 		default:
 			System.out.println("Opção Inválida !");

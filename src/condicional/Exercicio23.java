@@ -50,5 +50,6 @@ public class Exercicio23 {
     System.out.println("Valor total do desconto: R$ " + desconto);
     System.out.println("Valor total: R$ " + (totalNota - desconto));
 
+    input.close();
   }
 }

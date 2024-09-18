@@ -3,7 +3,7 @@ package sequencial;
 import java.util.Scanner;
 
 public class Exercicio22 {
-	public static void main(String args[]){
+	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
 		
 		int lados, diagonais;

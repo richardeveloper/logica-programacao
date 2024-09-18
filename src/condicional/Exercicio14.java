@@ -24,10 +24,10 @@ public class Exercicio14 {
 			System.out.printf("Novo salário: R$ %.2f", (salario * 1.2));
 		}
 		else if (salario > 800 && salario <= 1000) {
-			System.out.printf("Novo salário: R$ %.2f",(salario * 1.1));
+			System.out.printf("Novo salário: R$ %.2f", (salario * 1.1));
 		}
 		else {
-			System.out.printf("Novo salário: R$ %.2f",(salario * 1.05));
+			System.out.printf("Novo salário: R$ %.2f", (salario * 1.05));
 		}
 		
 		input.close();

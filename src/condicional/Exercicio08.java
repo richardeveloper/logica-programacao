@@ -12,13 +12,12 @@ public class Exercicio08 {
 		salario = input.nextDouble();
 		
 		if (salario <= 300) {
-			System.out.println("Salário reajustado: R$ "+(salario * 1.35));
+			System.out.println("Salário reajustado: R$ " + (salario * 1.35));
 		}
 		else {
-			System.out.println("Salário reajustado: "+(salario * 1.15));
+			System.out.println("Salário reajustado: " + (salario * 1.15));
 		}
 		
-		input.close(); 
-
+		input.close();
 	}
 }

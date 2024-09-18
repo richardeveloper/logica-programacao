@@ -13,7 +13,7 @@ public class Exercicio10 {
 		
 		area = lado * lado;
 		
-		System.out.println("Área do quadrado: "+area);
+		System.out.println("Área do quadrado: " + area);
 		
 		input.close();
 	}

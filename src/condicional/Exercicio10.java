@@ -13,15 +13,15 @@ public class Exercicio10 {
 		
 		if (custo <= 12000) {
 			preco = custo + (custo * 0.05);
-			System.out.println("Preço ao consumidor: R$ "+preco);
+			System.out.println("Preço ao consumidor: R$ " + preco);
 		}
 		else if (custo > 12000 && custo <= 25000) {
 			preco = custo + (custo * 0.1) + (custo * 0.15);
-			System.out.println("Preço ao consumidor: R$ "+preco);
+			System.out.println("Preço ao consumidor: R$ " + preco);
 		}
 		else {
 			preco = custo + (custo * 0.15) + (custo * 0.2);
-			System.out.println("Preço ao consumidor: R$ "+preco);
+			System.out.println("Preço ao consumidor: R$ " + preco);
 		}
 		
 		input.close();

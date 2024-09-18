@@ -35,5 +35,7 @@ public class Exercicio21 {
     else if (codigo > 20 && codigo <= 30) {
       System.out.println("Procedência: Nordeste");
     }
+
+    input.close();
   }
 }

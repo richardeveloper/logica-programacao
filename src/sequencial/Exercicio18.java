@@ -8,7 +8,7 @@ public class Exercicio18 {
 		
 		double celsius, fahreheit;
 		
-		System.out.println("Digite uma temperatura (�C): ");
+		System.out.println("Digite uma temperatura (ºC): ");
 		celsius = input.nextDouble();
 		
 		fahreheit = 180 * (celsius + 32)/100;

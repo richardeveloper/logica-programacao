@@ -6,14 +6,14 @@ public class Exercicio08 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		double pesoKg, pesoG;
+		double pesoKilos, pesoGramas;
 		
 		System.out.println("Digite o peso (Kg): ");
-		pesoKg = input.nextDouble();
+		pesoKilos = input.nextDouble();
 		
-		pesoG = pesoKg * 1000;
+		pesoGramas = pesoKilos * 1000;
 		
-		System.out.println("Peso em grama: "+pesoG);
+		System.out.println("Peso em grama: " + pesoGramas);
 		
 		input.close();
 	}

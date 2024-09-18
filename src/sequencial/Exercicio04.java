@@ -15,9 +15,9 @@ public class Exercicio04 {
 		System.out.println("Digite a segunda nota: ");
 		n2 = input.nextInt();
 		
-		media = (n1*2 + n2 *3) / 5;
+		media = (double) (n1 * 2 + n2 * 3) / 5;
 		
-		System.out.println("Média Ponderada: "+media);
+		System.out.println("Média Ponderada: " + media);
 		
 		input.close();
 	}

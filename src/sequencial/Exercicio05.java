@@ -13,7 +13,7 @@ public class Exercicio05 {
 		
 		novoPreco = preco - (preco * 0.1);
 		
-		System.out.println("Novo preço do produto: R$ "+novoPreco);
+		System.out.println("Novo preço do produto: R$ " + novoPreco);
 		
 		input.close();
 	}

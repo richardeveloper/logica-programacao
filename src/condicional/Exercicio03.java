@@ -10,13 +10,14 @@ public class Exercicio03 {
 		
 		System.out.println("Digite o primeiro número: ");
 		n1 = input.nextInt();
+
 		System.out.println("Digite o segundo número: ");
 		n2 = input.nextInt();
 		
-		if(n1 > n2) {
+		if (n1 > n2) {
 			System.out.println(n2+" é o menor !");
 		}
-		else if(n2 > n1){
+		else if (n2 > n1){
 			System.out.println(n1+" é o menor !");
 		}
 		else {

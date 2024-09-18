@@ -3,10 +3,10 @@ package sequencial;
 import java.util.Scanner;
 
 public class Exercicio02 {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		int n1, n2, n3, mult;
+		int n1, n2, n3, multiplicacao;
 		
 		System.out.println("Digite o primeiro número :");
 		n1 = input.nextInt();
@@ -17,9 +17,9 @@ public class Exercicio02 {
 		System.out.println("Digite o terceiro número :");
 		n3 = input.nextInt();
 		
-		mult = n1 * n2 * n3;
+		multiplicacao = n1 * n2 * n3;
 		
-		System.out.println("Multiplicação dos três números: "+mult);
+		System.out.println("Multiplicação dos três números: " + multiplicacao);
 		
 		input.close();
 	}

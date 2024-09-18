@@ -11,7 +11,7 @@ public class Exercicio13 {
 		System.out.print("Digite um número: ");
 		num = input.nextInt();
 		
-		System.out.println("Tabuada de "+num);
+		System.out.println("Tabuada de " + num);
 		System.out.println();
 		System.out.println(num+" x 0 = " + num*0);
 		System.out.println(num+" x 1 = " + num*1);

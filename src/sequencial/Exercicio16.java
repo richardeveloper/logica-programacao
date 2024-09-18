@@ -16,7 +16,7 @@ public class Exercicio16 {
 		
 		hipotenusa = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
 		
-		System.out.println("Valor da hipotenusa: "+hipotenusa);
+		System.out.println("Valor da hipotenusa: " + hipotenusa);
 		
 		input.close();
 	}

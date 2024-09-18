@@ -27,5 +27,7 @@ public class Exercicio19 {
     }
 
     System.out.println("O peso ideal para " + altura + " de altura é " + pesoIdeal + "kg");
+
+    input.close();
   }
 }

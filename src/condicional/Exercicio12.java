@@ -32,7 +32,5 @@ public class Exercicio12 {
 		System.out.println("Novo salário: R$ " + novoSalario);
 		
 		input.close();
-		
 	}
-
 }

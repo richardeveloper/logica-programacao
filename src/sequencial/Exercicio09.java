@@ -17,7 +17,7 @@ public class Exercicio09 {
 		System.out.println("Digite o valor da altura: ");
 		altura = input.nextInt();
 		
-		area = ((baseMaior+baseMenor) * altura)/2;
+		area = ((baseMaior+baseMenor) * altura) / 2;
 		
 		System.out.println("Área do trapézio: " + area);
 		

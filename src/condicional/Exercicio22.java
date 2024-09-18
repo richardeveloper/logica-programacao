@@ -48,5 +48,7 @@ public class Exercicio22 {
         System.out.println("Grupo de risco: 1");
       }
     }
+
+    input.close();
   }
 }

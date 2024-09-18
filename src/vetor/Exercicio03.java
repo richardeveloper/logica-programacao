@@ -54,6 +54,6 @@ public class Exercicio03 {
 
     } while (opcao != 0);
 
-
-    input.close(); }
+    input.close();
+  }
 }

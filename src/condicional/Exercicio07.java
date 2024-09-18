@@ -11,14 +11,13 @@ public class Exercicio07 {
 		System.out.println("Digite o salário do funcionário: ");
 		salario = input.nextDouble();
 		
-		if(salario < 500) {
-			System.out.println("Salário reajustado: R$ "+(salario * 1.3));
+		if (salario < 500) {
+			System.out.println("Salário reajustado: R$ " + (salario * 1.3));
 		}
 		else {
 			System.out.println("Funcionário não tem direito ao reajuste.");
 		}
 		
-		input.close(); 
-		
+		input.close();
 	}
 }

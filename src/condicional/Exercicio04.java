@@ -17,14 +17,14 @@ public class Exercicio04 {
 		System.out.println("Digite o terceiro número: ");
 		n3 = input.nextInt();
 		
-		if(n1 > n2 && n1 > n3) {
-			System.out.println(n1 + " é o maior !");
+		if (n1 > n2 && n1 > n3) {
+			System.out.println(n1 + " é o maior número.");
 		}
-		else if(n2 > n1 && n2 > n3){
-			System.out.println(n2 + " é o maior !");
+		else if (n2 > n1 && n2 > n3){
+			System.out.println(n2 + " é o maior número.");
 		}
 		else {
-			System.out.println(n3 + " é o maior !");
+			System.out.println(n3 + " é o maior número.");
 		}
 		
 		input.close();

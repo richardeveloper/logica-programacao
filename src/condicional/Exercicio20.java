@@ -26,5 +26,7 @@ public class Exercicio20 {
     else {
       System.out.println("Categoria: Sênior");
     }
+
+    input.close();
   }
 }
