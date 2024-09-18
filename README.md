@@ -24,9 +24,9 @@
 </div>
 <div style="display: flex; flex-direction: row; justify-content: center">
     <div style="padding: 10px">
-        <img src="https://m.media-amazon.com/images/I/81HITrV4GXL._SL1500_.jpg" height=450 width=300 alt="Capa do livro">
+        <img src="https://m.media-amazon.com/images/I/81HITrV4GXL._SL1500_.jpg" height=350 width=250 alt="Capa do livro">
     </div>
     <div style="padding: 10px">
-        <img src="https://m.media-amazon.com/images/I/81PZMZlijoL._SL1500_.jpg" height=450 width=300 alt="Contra-capa do livro">
+        <img src="https://m.media-amazon.com/images/I/81PZMZlijoL._SL1500_.jpg" height=350 width=250 alt="Contra-capa do livro">
     </div>
 </div>
