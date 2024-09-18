@@ -22,7 +22,7 @@
 <div style="text-align: center">
     <a href="https://www.academia.edu/42056797/Fundamentos_da_PROGRAMA%C3%87%C3%83O_de">Link para download</a>
 </div>
-<div style="display: flex; justify-content: center">
+<div style="display: flex; flex-direction: row; justify-content: center">
     <div style="padding: 10px">
         <img src="https://m.media-amazon.com/images/I/81HITrV4GXL._SL1500_.jpg" height=450 width=300 alt="Capa do livro">
     </div>
