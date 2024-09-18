@@ -2,8 +2,8 @@
 
 ## Motivação
 <p align="justify">
-    Este projeto foi desenvolvido em dezembro de 2019, recuperado de um antigo HD  e colocado aqui por motivos nostálgicos. Esse período ficou marcado para mim pois foi nele que iniciei minha caminhada no desenvolvimento de software, começando pela lógica de programação.
-    <br>Conheci o livro <b>Fundamentos da Programação de Computadores 3ª Edição</b> por recomendação de um amigo e então aceitei o desafio de resolver em Java, os 25 exercícios de lógica para cada estrutura apresentada no livro.  Foi um desafio pessoal bastante intenso e complicado na época, mas cada problema solucionado trazia um pouco a mais de confiança e experiência.
+    Este projeto foi desenvolvido entre dezembro de 2019 e meados de 2020, recuperado de um antigo HD e trazido aqui por motivos nostálgicos. Esse período é significativo para mim, pois marca o início da minha caminhada no desenvolvimento de software, começando pela lógica de programação.
+    <br>Descobri o livro <strong>Fundamentos da Programação de Computadores, 3ª Edição</strong>, por recomendação de um amigo. Aceitei o desafio de resolver, em Java, os 25 exercícios de lógica para cada estrutura apresentada na obra. Foi uma experiência intensa e desafiadora, mas cada problema resolvido me trouxe um aumento de confiança e experiência.
 </p>
 
 ## Exercícios
