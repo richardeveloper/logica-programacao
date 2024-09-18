@@ -1,10 +1,9 @@
 # Lógica de Programação
 
 ## Motivação
-<p style="text-align: justify;">
+<p align="justify">
     Este projeto foi desenvolvido em dezembro de 2019, resgatado do báu dos projetos antigos e colocado aqui por motivos nostálgicos. Esse período ficou marcado para mim pois foi nele que iniciei minha caminhada no desenvolvimento de software, começando pela lógica de programação.
-    <br>Conheci o livro <b>Fundamentos da Programação de Computadores 3ª Edição</b>, das autoras <i>Ana Fernanda Gomes Ascencio</i> e <i>Edilene Aparecida Veneruchi de Campos</i> por recomendação de um amigo e então aceitei o desafio de resolver em Java, os 25 exercícios de lógica para cada estrutura apresentada no livro. 
-    <br>Foi um desafio pessoal bastante intenso e complicado na época, mas cada problema solucionado trazia um pouco a mais de confiança e experiência, características fundamentais para o dia a dia de um programador. Finalizar esse projeto abriu minha cabeça para alguns aspectos, tanto computacionais como da vida.
+    <br>Conheci o livro <b>Fundamentos da Programação de Computadores 3ª Edição</b> por recomendação de um amigo e então aceitei o desafio de resolver em Java, os 25 exercícios de lógica para cada estrutura apresentada no livro.  Foi um desafio pessoal bastante intenso e complicado na época, mas cada problema solucionado trazia um pouco a mais de confiança e experiência, características fundamentais para o dia a dia de um programador.
 </p>
 
 ## Exercícios
