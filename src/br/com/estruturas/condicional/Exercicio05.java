@@ -17,7 +17,7 @@ public class Exercicio05 {
 		
 		System.out.println();
 
-		System.out.println("DIGITE O NÚMERO DA OPERAÇÃO DESEJADA:");
+		System.out.println("Digite a opção desejada:");
 		System.out.println("1- Média entre os números digitados");
 		System.out.println("2- Diferença do maior pelo menor");
 		System.out.println("3- Produto entre os números digitados");

@@ -14,14 +14,14 @@ public class Exercicio24 {
     preco = input.nextDouble();
 
     System.out.println("Digite a categoria do produto: ");
-    System.out.println("1 - Limpeza");
-    System.out.println("2 - Alimentação");
-    System.out.println("3 - Vestuário");
+    System.out.println("1- Limpeza");
+    System.out.println("2- Alimentação");
+    System.out.println("3- Vestuário");
     categoria = input.nextInt();
 
     System.out.println("Digite a situação do produto: ");
-    System.out.println("R - Necessita de refrigeração");
-    System.out.println("N - Não necessita de refrigeração");
+    System.out.println("R- Necessita de refrigeração");
+    System.out.println("N- Não necessita de refrigeração");
     situacao = input.next();
 
     if (preco <= 25) {

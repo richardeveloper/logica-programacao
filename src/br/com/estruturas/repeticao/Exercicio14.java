@@ -19,9 +19,9 @@ public class Exercicio14 {
 
       do {
         System.out.println("Digite a opinião da " + i + "ª pessoa: ");
-        System.out.println("1 - Regular");
-        System.out.println("2 - Bom");
-        System.out.println("3 - Ótimo");
+        System.out.println("1- Regular");
+        System.out.println("2- Bom");
+        System.out.println("3- Ótimo");
 
         opiniao = input.nextInt();
       } while (opiniao < 1 || opiniao > 3);

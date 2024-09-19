@@ -17,7 +17,7 @@ public class Exercicio06 {
 		
 		System.out.println();
 		
-		System.out.println("DIGITE O NÚMERO DA OPERAÇÃO DESEJADA");
+		System.out.println("Digite a opção desejada:");
 		System.out.println("1- O primeiro número elevado ao segundo número");
 		System.out.println("2- Raiz quadrada de cada um dos números");
 		System.out.println("3- Raiz cúbica de cada um dos números");
