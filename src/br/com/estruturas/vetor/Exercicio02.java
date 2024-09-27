@@ -4,10 +4,11 @@ import java.util.Random;
 
 public class Exercicio02 {
   public static void main(String[] args) {
+    Random random = new Random();
     int[] numeros = new int[7];
 
     for (int i = 0; i < numeros.length; i++) {
-      numeros[i] = new Random().nextInt(100);
+      numeros[i] = random.nextInt(100);
       System.out.print(numeros[i] + " ");
     }
 
