@@ -43,18 +43,17 @@ public class Exercicio10 {
       }
     }
 
-    imprimirVetor(vetorResultante1, "RESULTANTE 1");
+    imprimirVetor(vetorResultante1, "Vetor resultante 1");
 
-    System.out.println();
-
-    imprimirVetor(vetorResultante2, "RESULTANTE 2");
+    imprimirVetor(vetorResultante2, "Vetor resultante 2");
   }
 
   private static void imprimirVetor(int[] vetor, String nomeVetor) {
-    System.out.print("VETOR " + nomeVetor + ": [ ");
+    System.out.print(nomeVetor + ": [ ");
     for (int i = 0; i < vetor.length; i++) {
       System.out.print(vetor[i] + " ");
     }
     System.out.print("]");
+    System.out.println();
   }
 }
