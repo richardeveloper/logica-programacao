@@ -16,17 +16,8 @@ public class Exercicio19 {
       vetorResultante[i] = vetor1[i] * vetor2[i];
     }
 
-    imprimirVetor(vetor1, "Vetor 1");
-    imprimirVetor(vetor2, "Vetor 2");
-    imprimirVetor(vetorResultante, "Vetor Resultante");
-  }
-
-  private static void imprimirVetor(int[] vetor, String nomeVetor) {
-    System.out.print(nomeVetor + ": [ ");
-    for (int i = 0; i < vetor.length; i++) {
-      System.out.print(vetor[i] + " ");
-    }
-    System.out.print("]");
-    System.out.println();
+    VetorUtils.imprimirVetor(vetor1, "Vetor 1");
+    VetorUtils.imprimirVetor(vetor2, "Vetor 2");
+    VetorUtils.imprimirVetor(vetorResultante, "Vetor Resultante");
   }
 }

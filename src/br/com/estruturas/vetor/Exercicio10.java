@@ -13,20 +13,16 @@ public class Exercicio10 {
     int[] vetorResultante2 = new int[10];
 
     for (int i = 0; i < vetor1.length; i++) {
-      vetor1[i] = random.nextInt(100);
+      vetor1[i] = random.nextInt(100) + 1;
     }
 
     for (int i = 0; i < vetor2.length; i++) {
-      vetor2[i] = random.nextInt(100);
+      vetor2[i] = random.nextInt(100) + 1;
     }
 
-    imprimirVetor(vetor1, "1");
+    VetorUtils.imprimirVetor(vetor1, "1");
 
-    System.out.println();
-
-    imprimirVetor(vetor2, "2");
-
-    System.out.println();
+    VetorUtils.imprimirVetor(vetor2, "2");
 
     for (int i = 0; i < vetor1.length; i++) {
       if (vetor1[i] % 2 == 0) {
@@ -43,17 +39,7 @@ public class Exercicio10 {
       }
     }
 
-    imprimirVetor(vetorResultante1, "Vetor resultante 1");
-
-    imprimirVetor(vetorResultante2, "Vetor resultante 2");
-  }
-
-  private static void imprimirVetor(int[] vetor, String nomeVetor) {
-    System.out.print(nomeVetor + ": [ ");
-    for (int i = 0; i < vetor.length; i++) {
-      System.out.print(vetor[i] + " ");
-    }
-    System.out.print("]");
-    System.out.println();
+    VetorUtils.imprimirVetor(vetorResultante1, "Vetor resultante 1");
+    VetorUtils.imprimirVetor(vetorResultante2, "Vetor resultante 2");
   }
 }

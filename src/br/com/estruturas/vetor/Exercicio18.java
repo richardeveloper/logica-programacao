@@ -30,7 +30,7 @@ public class Exercicio18 {
       }
     }
 
-    imprimirVetor(numeros);
+    VetorUtils.imprimirVetor(numeros, "Números");
 
     System.out.println("Maior número: " + maiorNumero);
     System.out.println("Posição do maior número: " + posicaoMaiorNumero);
@@ -38,14 +38,5 @@ public class Exercicio18 {
     System.out.println("Menor numero: " + menorNumero);
     System.out.println("Posição do menor número: " + posicaoMenorNumero);
 
-  }
-
-  private static void imprimirVetor(int[] vetor) {
-    System.out.print("Números" + ": [ ");
-    for (int i = 0; i < vetor.length; i++) {
-      System.out.print(vetor[i] + " ");
-    }
-    System.out.print("]");
-    System.out.println();
   }
 }

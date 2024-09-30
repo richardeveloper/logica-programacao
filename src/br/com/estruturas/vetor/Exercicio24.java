@@ -13,7 +13,7 @@ public class Exercicio24 {
       vetor1[i] = random.nextInt(100);
     }
 
-    imprimirVetor(vetor1, "Vetor 1");
+    VetorUtils.imprimirVetor(vetor1, "Vetor 1");
 
     for (int i = 0; i < vetor1.length; i++) {
       int divisores = 0;
@@ -29,18 +29,6 @@ public class Exercicio24 {
       }
     }
 
-    imprimirVetor(vetorResultante, "Vetor Resultante");
+    VetorUtils.imprimirVetor(vetorResultante, "Vetor Resultante");
   }
-
-  private static void imprimirVetor(int[] vetor, String nomeVetor) {
-    System.out.print(nomeVetor + ": [ ");
-    for (int i = 0; i < vetor.length; i++) {
-      if (vetor[i] != 0) {
-        System.out.print(vetor[i] + " ");
-      }
-    }
-    System.out.print("]");
-    System.out.println();
-  }
-
 }

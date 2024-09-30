@@ -15,7 +15,7 @@ public class Exercicio25 {
       vetor1[i] = random.nextInt(100) + 1;
     }
 
-    imprimirVetor(vetor1, "Vetor 1");
+    VetorUtils.imprimirVetor(vetor1, "Vetor 1");
 
     for (int i = 0; i < vetor1.length; i++) {
       if (vetor1[i] > maiorNumero) {
@@ -27,16 +27,6 @@ public class Exercicio25 {
       vetorResultante[i] = vetor1[i] / maiorNumero;
     }
 
-    imprimirVetor(vetorResultante, "Vetor Resultante");
+    VetorUtils.imprimirVetor(vetorResultante, "Vetor Resultante");
   }
-
-  private static void imprimirVetor(int[] vetor, String nomeVetor) {
-    System.out.print(nomeVetor + ": [ ");
-    for (int i = 0; i < vetor.length; i++) {
-      System.out.print(vetor[i] + " ");
-    }
-    System.out.print("]");
-    System.out.println();
-  }
-
 }

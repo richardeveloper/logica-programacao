@@ -1,28 +1,29 @@
 package br.com.estruturas.matriz;
 
+import br.com.estruturas.vetor.VetorUtils;
 import java.util.Random;
 
-public class Exercicio01 {
+public class Exercicio06 {
   public static void main(String[] args) {
     Random random = new Random();
 
-    int[][] matriz = new int[3][5];
-
-    int quantidadeNumeros = 0;
+    int[][] matriz = new int[20][10];
+    int[] soma = new int[10];
 
     for (int i = 0; i < matriz.length; i++) {
       for (int j = 0; j < matriz[i].length; j++) {
         matriz[i][j] = random.nextInt(100);
-        if (matriz[i][j] >= 15 && matriz[i][j] <= 20) {
-          quantidadeNumeros++;
-        }
       }
     }
 
     MatrizUtils.imprimirMatriz(matriz, "Matriz");
 
-    System.out.println();
+    for (int i = 0; i < matriz[i].length; i++) {
+      for (int j = 0; j < matriz.length; j++) {
+        soma[i] += matriz[j][i];
+      }
+    }
 
-    System.out.println("Números entre 15 e 20: " + quantidadeNumeros);
+    VetorUtils.imprimirVetor(soma, "Soma");
   }
 }

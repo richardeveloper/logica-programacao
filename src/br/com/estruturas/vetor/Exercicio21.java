@@ -18,7 +18,7 @@ public class Exercicio21 {
       }
     }
 
-    imprimirVetor(vetor1, "Vetor 1");
+    VetorUtils.imprimirVetor(vetor1, "Vetor 1");
 
     System.out.print("Vetor 2: [ ");
     for (int i = 0; i < vetor2.length; i++) {
@@ -32,17 +32,5 @@ public class Exercicio21 {
       }
     }
     System.out.print("]");
-    System.out.println();
-
   }
-
-  private static void imprimirVetor(Integer[] vetor, String nomeVetor) {
-    System.out.print(nomeVetor + ": [ ");
-    for (int i = 0; i < vetor.length; i++) {
-      System.out.print(vetor[i] + " ");
-    }
-    System.out.print("]");
-    System.out.println();
-  }
-
 }
