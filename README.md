@@ -7,15 +7,15 @@
 
 ## Exercícios
  
-> <a href="https://github.com/Richardeveloper/logica-programacao/tree/master/src/sequencial">Estrutura sequencial</a>
+> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/sequencial">Estrutura sequencial</a>
 
-> <a href="https://github.com/Richardeveloper/logica-programacao/tree/master/src/condicional">Estrutura condicional</a>
+> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/condicional">Estrutura condicional</a>
 
-> <a href="https://github.com/Richardeveloper/logica-programacao/tree/master/src/repeticao">Estrutura de repetição</a>
+> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/repeticao">Estrutura de repetição</a>
 
-> <a href="https://github.com/Richardeveloper/logica-programacao/tree/master/src/vetor">Vetor</a>
+> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/vetor">Vetor</a>
 
-> <a href="https://github.com/Richardeveloper/logica-programacao/tree/master/src/matriz">Matriz</a>
+> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/matriz">Matriz</a>
 
 ## O Livro
 
