@@ -1,15 +1,8 @@
 # Lógica de Programação
 
 <p align="justify">
-<<<<<<< HEAD
-    Este projeto foi desenvolvido entre dezembro de 2019 e meados de 2020, recuperado de um antigo HD e trazido aqui por motivos nostálgicos. Esse período é significativo para mim, pois marca o início da minha caminhada no desenvolvimento de software, começando pela lógica de programação.
-</p>
-<p align="justify">
-    Descobri o livro <strong>Fundamentos da Programação de Computadores, 3ª Edição</strong>, por recomendação de um amigo. Aceitei o desafio de resolver, em Java, os 25 exercícios de lógica para cada estrutura apresentada na obra. Foi uma experiência intensa e desafiadora, mas cada problema resolvido me trouxe um aumento de confiança e experiência.
-=======
     Este projeto foi desenvolvido entre dezembro de 2019 e meados de 2020, recuperado de um antigo notebook e trazido aqui por motivos nostálgicos. Esse período é significativo para mim, pois marca o início da minha caminhada no desenvolvimento de software, começando pela lógica de programação.
     <br>Descobri o livro <strong>Fundamentos da Programação de Computadores, 3ª Edição</strong>, por recomendação de um amigo. Aceitei o desafio de resolver, em Java, os 25 exercícios de lógica para cada estrutura apresentada na obra. Foi uma experiência intensa e desafiadora, mas cada problema resolvido me trouxe um aumento de confiança e experiência.
->>>>>>> 0b054e5 (Matriz 01-10)
 </p>
 
 ## Exercícios
