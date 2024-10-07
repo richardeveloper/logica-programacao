@@ -14,12 +14,12 @@ public class MatrizUtils {
     System.out.println();
   }
 
-  public static void imprimirMatriz(double[][] matriz, String nomeMatriz, String regex) {
+  public static void imprimirMatriz(double[][] matriz, String nomeMatriz, String formato) {
     System.out.println();
     System.out.println(nomeMatriz + ": ");
     for (int i = 0; i < matriz.length; i++) {
       for (int j = 0; j < matriz[i].length; j++) {
-        System.out.printf(regex + " ", matriz[i][j]);
+        System.out.printf(formato + " ", matriz[i][j]);
       }
       System.out.println();
     }
