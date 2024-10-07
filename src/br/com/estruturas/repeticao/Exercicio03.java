@@ -7,7 +7,9 @@ public class Exercicio03 {
     Scanner input = new Scanner(System.in);
 
     int idade, totalPessoas = 0;
+
     int primeiraFaixa = 0, segundaFaixa = 0, terceiraFaixa = 0, quartaFaixa = 0, quintaFaixa = 0;
+
     double percPrimeiraFaixa, percUltimaFaixa;
 
     for (int i = 1; i < 8; i++) {

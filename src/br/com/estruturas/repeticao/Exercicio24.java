@@ -7,6 +7,7 @@ public class Exercicio24 {
     Scanner input = new Scanner(System.in);
 
     int numero;
+
     int maiorNumero = 0;
     int menorNumero = Integer.MAX_VALUE;
 

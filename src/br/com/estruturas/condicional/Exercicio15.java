@@ -7,9 +7,9 @@ public class Exercicio15 {
 		Scanner input = new Scanner(System.in);
 
 		int opcao;
-		double valorInvestido;
-		double rendimento = 0.0;
-		double valorTotal = 0.0;
+
+		double valorInvestido, rendimento = 0.0, valorTotal = 0.0;
+
 		String tipoInvestimento = "";
 
 		System.out.println("Digite o valor do investimento: ");

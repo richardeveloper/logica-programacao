@@ -8,8 +8,7 @@ public class Exercicio07 {
 
     int[] numeros = new int[10];
 
-    int numerosNegativos = 0;
-    int somaPositivos = 0;
+    int quantidadeNegativos = 0, somaPositivos = 0;
 
     for (int i = 0; i < numeros.length; i++) {
       int n1 = random.nextInt(100);
@@ -18,7 +17,7 @@ public class Exercicio07 {
       System.out.print(numeros[i] + " ");
 
       if (numeros[i] < 0) {
-        numerosNegativos++;
+        quantidadeNegativos++;
       }
       else {
         somaPositivos += numeros[i];
@@ -26,7 +25,7 @@ public class Exercicio07 {
     }
 
     System.out.println();
-    System.out.println("Quantidade de números negativos: " + numerosNegativos);
+    System.out.println("Quantidade de números negativos: " + quantidadeNegativos);
     System.out.println("Soma dos números postivos: " + somaPositivos);
   }
 }

@@ -8,16 +8,10 @@ public class Exercicio21 {
 
     int opcao;
 
-    int votosCandidato1 = 0;
-    int votosCandidato2 = 0;
-    int votosCandidato3 = 0;
-    int votosCandidato4 = 0;
-    int votosNulos = 0;
-    int votosEmBranco = 0;
-    int totalVotos = 0;
+    int votosCandidato1 = 0, votosCandidato2 = 0, votosCandidato3 = 0, votosCandidato4 = 0;
+    int votosNulos = 0, votosEmBranco = 0, totalVotos = 0;
 
-    double percVotosNulos;
-    double percVotosEmBranco;
+    double percVotosNulos, percVotosEmBranco;
 
     do {
       System.out.println("Digite a opção do candidato escolhido: ");

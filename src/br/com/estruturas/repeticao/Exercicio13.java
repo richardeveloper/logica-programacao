@@ -10,10 +10,7 @@ public class Exercicio13 {
     double peso;
 
     int totalPessoas = 0;
-    double mediaPesoPrimeiraFaixa = 0;
-    double mediaPesoSegundaFaixa = 0;
-    double mediaPesoTerceiraFaixa = 0;
-    double mediaPesoQuartaFaixa = 0;
+    double mediaPesoPrimeiraFaixa = 0, mediaPesoSegundaFaixa = 0, mediaPesoTerceiraFaixa = 0, mediaPesoQuartaFaixa = 0;
 
     for (int i = 1; i <= 15; i++) {
       System.out.println("Digite a idade da " + i + "ª pessoa: ");

@@ -6,11 +6,9 @@ public class Exercicio16 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    int opcao;
-    int idade;
-    int totalIdades;
-    int quantidadeIdades = 0;
+    int opcao, idade;
 
+    int totalIdades, quantidadeIdades = 0;
     double mediaIdades;
 
     do {

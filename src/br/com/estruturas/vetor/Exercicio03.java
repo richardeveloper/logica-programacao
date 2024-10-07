@@ -6,12 +6,13 @@ public class Exercicio03 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    int opcao, codigoCliente, codigoProduto, qtdProduto;
+    int opcao, codigoCliente, codigoProduto, quantidadeProduto;
+
     int[] codigos = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int[] qtdProdutos = {10, 20, 5, 30, 7, 9, 12, 22, 19, 2};
+    int[] quantidadeProdutos = {10, 20, 5, 30, 7, 9, 12, 22, 19, 2};
 
     for (int i = 0; i < codigos.length; i++) {
-      System.out.print("Produto #" + codigos[i] + ": " + qtdProdutos[i]);
+      System.out.print("Produto #" + codigos[i] + ": " + quantidadeProdutos[i]);
       System.out.println();
     }
 
@@ -27,10 +28,10 @@ public class Exercicio03 {
       for (int i = 0; i < codigos.length; i++) {
         if (codigos[i] == codigoProduto) {
           System.out.println("Digite a quantidade do produto: ");
-          qtdProduto = input.nextInt();
+          quantidadeProduto = input.nextInt();
 
-          if (qtdProdutos[codigoProduto - 1] >= qtdProduto) {
-            qtdProdutos[codigoProduto - 1] = qtdProdutos[codigoProduto - 1] - qtdProduto;
+          if (quantidadeProdutos[codigoProduto - 1] >= quantidadeProduto) {
+            quantidadeProdutos[codigoProduto - 1] = quantidadeProdutos[codigoProduto - 1] - quantidadeProduto;
 
             System.out.println("Pedido realizado com sucesso.");
             System.out.println();
@@ -44,7 +45,7 @@ public class Exercicio03 {
       }
 
       for (int i = 0; i < codigos.length; i++) {
-        System.out.print("Produto #" + codigos[i] + ": " + qtdProdutos[i]);
+        System.out.print("Produto #" + codigos[i] + ": " + quantidadeProdutos[i]);
         System.out.println();
       }
 

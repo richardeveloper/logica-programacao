@@ -9,13 +9,8 @@ public class Exercicio07 {
     int idade;
     double altura, peso;
 
-    int qtdIdosos = 0;
-
-    int qtdMediaAltura = 0;
-    double totalAltura = 0.0;
-
-    double qtdPeso = 0.0;
-    double totalPeso = 0;
+    int quantidadeIdosos = 0, quantidadeMediaAltura = 0;
+    double totalAltura = 0.0, totalPeso = 0, quantidadePeso = 0.0;
 
     for (int i = 1; i <= 8; i++) {
       System.out.println("Digite a idade da " + i + "ª pessoa: ");
@@ -28,23 +23,23 @@ public class Exercicio07 {
       peso = input.nextDouble();
 
       if (idade >= 50) {
-        qtdIdosos++;
+        quantidadeIdosos++;
       }
 
       if (idade >= 10 && idade <= 20) {
-        qtdMediaAltura++;
+        quantidadeMediaAltura++;
         totalAltura += altura;
       }
 
       if (peso <= 40) {
-        qtdPeso++;
+        quantidadePeso++;
         totalPeso += peso;
       }
     }
 
-    System.out.println("Pessoas com mais de 50 anos: " + qtdIdosos);
-    System.out.printf("Média das alturas de pessoas entre 10 e 20 anos: %.1f%n", (totalAltura / qtdMediaAltura));
-    System.out.printf("Porcentagem das pessoas com peso menor que 40kg: %.1f%n", (totalPeso / qtdPeso));
+    System.out.println("Pessoas com mais de 50 anos: " + quantidadeIdosos);
+    System.out.printf("Média das alturas de pessoas entre 10 e 20 anos: %.1f%n", (totalAltura / quantidadeMediaAltura));
+    System.out.printf("Porcentagem das pessoas com peso menor que 40kg: %.1f%n", (totalPeso / quantidadePeso));
 
     input.close();
   }

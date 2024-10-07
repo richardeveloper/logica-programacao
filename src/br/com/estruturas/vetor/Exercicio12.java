@@ -7,6 +7,7 @@ public class Exercicio12 {
     Scanner input = new Scanner(System.in);
 
     int[] numeros = new int[5];
+
     int soma = 0;
 
     for (int i = 0; i < numeros.length; i++) {

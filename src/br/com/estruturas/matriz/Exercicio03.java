@@ -8,13 +8,8 @@ public class Exercicio03 {
 
     int[][] matriz = new int[6][3];
 
-    int maiorElemento = 0;
-    int linhaMaior = 0;
-    int colunaMaior = 0;
-
-    int menorElemento = Integer.MAX_VALUE;
-    int linhaMenor = 0;
-    int colunaMenor = 0;
+    int maiorElemento = 0, maiorElementoLinha = 0, maiorElementoColuna = 0;
+    int menorElemento = Integer.MAX_VALUE, menorElementoLinha = 0, menorElementoLinhaColuna = 0;
 
     for (int i = 0; i < matriz.length; i++) {
       for (int j = 0; j < matriz[i].length; j++) {
@@ -28,24 +23,24 @@ public class Exercicio03 {
       for (int j = 0; j < matriz[i].length; j++) {
         if (matriz[i][j] > maiorElemento) {
           maiorElemento = matriz[i][j];
-          linhaMaior = i;
-          colunaMaior = j;
+          maiorElementoLinha = i;
+          maiorElementoColuna = j;
         }
 
         if (matriz[i][j] < menorElemento) {
           menorElemento = matriz[i][j];
-          linhaMenor = i;
-          colunaMenor = j;
+          menorElementoLinha = i;
+          menorElementoLinhaColuna = j;
         }
       }
     }
 
     System.out.println("Maior Elemento: " + maiorElemento);
-    System.out.printf("Posição: [%d][%d] %n", linhaMaior, colunaMaior);
+    System.out.printf("Posição: [%d][%d] %n", maiorElementoLinha, maiorElementoColuna);
 
     System.out.println();
 
     System.out.println("Menor Elemento: " + menorElemento);
-    System.out.printf("Posição: [%d][%d] %n", linhaMenor, colunaMenor);
+    System.out.printf("Posição: [%d][%d] %n", menorElementoLinha, menorElementoLinhaColuna);
   }
 }

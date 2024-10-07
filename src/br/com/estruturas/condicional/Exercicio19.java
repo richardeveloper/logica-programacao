@@ -8,7 +8,6 @@ public class Exercicio19 {
 
     double altura;
     String sexo;
-
     double pesoIdeal;
 
     System.out.println("Digite a altura: ");

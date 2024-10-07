@@ -6,11 +6,10 @@ public class Exercicio25 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    int codigoCliente;
-    int tipoInvestimento;
     String investimento = "";
-    double valorIntestido = 0;
-    double rendimento = 0;
+    int codigoCliente, tipoInvestimento;
+
+    double valorIntestido = 0, rendimento = 0;
 
     do {
       System.out.println("Digite o codigo do cliente igual a 0 para sair.");

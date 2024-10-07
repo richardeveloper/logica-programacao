@@ -7,20 +7,15 @@ public class Exercicio08 {
     Scanner input = new Scanner(System.in);
 
     int idade;
-    double peso, altura;
-    String corOlhos;
-    String corCabelo;
+    double peso;
+    double altura;
 
-    int totalPessoas = 0;
+    String corOlhos, corCabelo;
 
-    int qtdIdade = 0;
+    int totalPessoas = 0, quantidadeIdade = 0, quantidadeAltura = 0;
+    int quantidadeOlhosAzuis = 0, quantidadeRuivas = 0;
 
-    int qtdAltura = 0;
     double mediaAltura = 0;
-
-    int qtdOlhosAzuis = 0;
-
-    int qtdRuivas = 0;
 
     for (int i = 1; i <= 6; i++) {
       System.out.println("Digite a idade da " + i + "ª pessoa: ");
@@ -50,29 +45,29 @@ public class Exercicio08 {
       } while (isCorOlhoInvalida(corOlhos));
 
       if (idade > 50 && peso < 60) {
-        qtdIdade++;
+        quantidadeIdade++;
       }
 
       if (altura < 1.5) {
-        qtdAltura++;
+        quantidadeAltura++;
         mediaAltura += idade;
       }
 
       if (corOlhos.equalsIgnoreCase("A")) {
-        qtdOlhosAzuis++;
+        quantidadeOlhosAzuis++;
       }
 
       if (corCabelo.equalsIgnoreCase("R") && !corOlhos.equalsIgnoreCase("A")) {
-        qtdRuivas++;
+        quantidadeRuivas++;
       }
 
       totalPessoas++;
     }
 
-    System.out.println("Pessoas com idade superior a 50 anos e peso menor que 60kg: " + qtdIdade);
-    System.out.println("Média  das idades das pessoas com idade entre 10 e 20 anos: " + (mediaAltura / qtdAltura));
-    System.out.println("Porcentagem de pessoas olhos azuis: " + (qtdRuivas / totalPessoas));
-    System.out.println("Pessoas com cabelo ruivo e sem olhos azuis: " + qtdOlhosAzuis);
+    System.out.println("Pessoas com idade superior a 50 anos e peso menor que 60kg: " + quantidadeIdade);
+    System.out.println("Média  das idades das pessoas com idade entre 10 e 20 anos: " + (mediaAltura / quantidadeAltura));
+    System.out.println("Porcentagem de pessoas olhos azuis: " + (quantidadeRuivas / totalPessoas));
+    System.out.println("Pessoas com cabelo ruivo e sem olhos azuis: " + quantidadeOlhosAzuis);
 
     input.close();
   }

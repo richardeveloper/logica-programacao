@@ -8,10 +8,7 @@ public class Exercicio10 {
 
     int[][] matriz = new int[5][5];
 
-    int somaLinha4 = 0;
-    int somaColuna2 = 0;
-    int somaDiagonalPrincipal = 0;
-    int somaDiagonalSecundaria = 0;
+    int somaQuartaLinha = 0, somSegundaColuna = 0, somaDiagonalPrincipal = 0, somaDiagonalSecundaria = 0;
 
     for (int i = 0; i < matriz.length; i++) {
       for (int j = 0; j < matriz[0].length; j++) {
@@ -24,11 +21,11 @@ public class Exercicio10 {
     for (int i = 0; i < matriz.length; i++) {
       for (int j = 0; j < matriz[0].length; j++) {
         if (i == 4) {
-          somaLinha4 += matriz[i][j];
+          somaQuartaLinha += matriz[i][j];
         }
 
         if (j == 2) {
-          somaColuna2 += matriz[i][j];
+          somSegundaColuna += matriz[i][j];
         }
 
         if (i == j) {
@@ -38,14 +35,12 @@ public class Exercicio10 {
         if (i + j == matriz.length - 1) {
           somaDiagonalSecundaria += matriz[i][j];
         }
-
       }
     }
 
-    System.out.println("Soma elementos da linha 4: " + somaLinha4);
-    System.out.println("Soma elementos da coluna 2: " + somaColuna2);
+    System.out.println("Soma elementos da linha 4: " + somaQuartaLinha);
+    System.out.println("Soma elementos da coluna 2: " + somSegundaColuna);
     System.out.println("Soma elementos da diagonal principal: " + somaDiagonalPrincipal);
     System.out.println("Soma elementos da diagonal secundária: " + somaDiagonalSecundaria);
-
   }
 }

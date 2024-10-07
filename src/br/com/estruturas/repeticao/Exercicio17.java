@@ -8,18 +8,9 @@ public class Exercicio17 {
 
     int opcao;
 
-    int quantidadePessoas;
-    int totalPessoas = 0;
-
-    int audienciaCanal4 = 0;
-    int audienciaCanal5 = 0;
-    int audienciaCanal7 = 0;
-    int audienciaCanal12 = 0;
-
-    double percCanal4;
-    double percCanal5;
-    double percCanal7;
-    double percCanal12;
+    int quantidadePessoas, totalPessoas;
+    int audienciaCanal4 = 0, audienciaCanal5 = 0, audienciaCanal7 = 0, audienciaCanal12 = 0;
+    double percCanal4, percCanal5, percCanal7, percCanal12;
 
     do {
       do {

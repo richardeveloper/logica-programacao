@@ -6,24 +6,24 @@ public class Exercicio13 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		int num;
+		int numero;
 		
 		System.out.print("Digite um número: ");
-		num = input.nextInt();
+		numero = input.nextInt();
 		
-		System.out.println("Tabuada de " + num);
+		System.out.println("Tabuada de " + numero);
 		System.out.println();
-		System.out.println(num+" x 0 = " + num*0);
-		System.out.println(num+" x 1 = " + num*1);
-		System.out.println(num+" x 2 = " + num*2);
-		System.out.println(num+" x 3 = " + num*3);
-		System.out.println(num+" x 4 = " + num*4);
-		System.out.println(num+" x 5 = " + num*5);
-		System.out.println(num+" x 6 = " + num*6);
-		System.out.println(num+" x 7 = " + num*7);
-		System.out.println(num+" x 8 = " + num*8);
-		System.out.println(num+" x 9 = " + num*9);
-		System.out.println(num+" x 10 = " + num*10);
+		System.out.println(numero+" x 0 = " + numero*0);
+		System.out.println(numero+" x 1 = " + numero*1);
+		System.out.println(numero+" x 2 = " + numero*2);
+		System.out.println(numero+" x 3 = " + numero*3);
+		System.out.println(numero+" x 4 = " + numero*4);
+		System.out.println(numero+" x 5 = " + numero*5);
+		System.out.println(numero+" x 6 = " + numero*6);
+		System.out.println(numero+" x 7 = " + numero*7);
+		System.out.println(numero+" x 8 = " + numero*8);
+		System.out.println(numero+" x 9 = " + numero*9);
+		System.out.println(numero+" x 10 = " + numero*10);
 	
 		input.close();
 	}

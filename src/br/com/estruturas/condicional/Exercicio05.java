@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Exercicio05 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-	
-		double n1, n2, operacao;
+
 		int opcao;
-		
+		double n1, n2, operacao;
+
 		System.out.println("Digite o primeiro número: ");
 		n1 = input.nextDouble();
 

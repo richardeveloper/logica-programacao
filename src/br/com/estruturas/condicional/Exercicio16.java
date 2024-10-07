@@ -6,8 +6,8 @@ public class Exercicio16 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    double preco, desconto, novoPreco;
     int codigo;
+    double preco, desconto, novoPreco;
 
     System.out.println("Digite o preço do produto: ");
     preco = input.nextInt();

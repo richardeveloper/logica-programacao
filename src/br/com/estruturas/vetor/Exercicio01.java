@@ -7,7 +7,8 @@ public class Exercicio01 {
     Random random = new Random();
 
     int[] numeros = new int[6];
-    int qtdPares = 0, qtdImpares = 0;
+
+    int quantidadePares = 0, quantidadeImpares = 0;
 
     for (int i = 0; i < numeros.length; i++) {
       numeros[i] = random.nextInt(100);
@@ -17,20 +18,20 @@ public class Exercicio01 {
     System.out.println("Números pares: " );
     for (int i = 0; i < numeros.length; i++) {
       if (numeros[i] % 2 == 0) {
-        qtdPares++;
+        quantidadePares++;
         System.out.println(numeros[i]);
       }
     }
-    System.out.println("Quantidade de número pares: " + qtdPares);
+    System.out.println("Quantidade de número pares: " + quantidadePares);
     System.out.println();
 
     System.out.println("Números impares: " );
     for (int i = 0; i < numeros.length; i++) {
       if (numeros[i] % 2 != 0) {
-        qtdImpares++;
+        quantidadeImpares++;
         System.out.println(numeros[i]);
       }
     }
-    System.out.println("Quantidade de número ímpares: " + qtdImpares);
+    System.out.println("Quantidade de número ímpares: " + quantidadeImpares);
   }
 }

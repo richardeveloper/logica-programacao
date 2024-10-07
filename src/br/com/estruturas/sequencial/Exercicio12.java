@@ -6,17 +6,17 @@ public class Exercicio12 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		double salMinimo, salFuncionario, qtdeSalario;
+		double salarioMinimo, salarioFuncionario, quantidadeSalario;
 		
 		System.out.println("Digite o valor do salário minímo (R$): ");
-		salMinimo = input.nextDouble();
+		salarioMinimo = input.nextDouble();
 		
 		System.out.println("Digite o valor do salário do funcionário (R$): ");
-		salFuncionario = input.nextDouble();
+		salarioFuncionario = input.nextDouble();
+
+		quantidadeSalario = salarioFuncionario/salarioMinimo;
 		
-		qtdeSalario = salFuncionario/salMinimo;
-		
-		System.out.printf("Quantidade de salários mínimos que o funcionário recebe: %.1f", qtdeSalario);
+		System.out.printf("Quantidade de salários mínimos que o funcionário recebe: %.1f", quantidadeSalario);
 		
 		input.close();
 	}

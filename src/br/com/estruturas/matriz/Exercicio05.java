@@ -8,9 +8,7 @@ public class Exercicio05 {
 
     double[][] vendas = new double[12][4];
 
-    double totalMes = 0.0;
-    double totalSemana = 0.0;
-    double totalLoja = 0.0;
+    double totalVendasMes = 0.0, totalVendasSemana = 0.0, totalVendasLoja = 0.0;
 
     for (int i = 0; i < vendas.length; i++) {
       for (int j = 0; j < vendas[i].length; j++) {
@@ -23,26 +21,26 @@ public class Exercicio05 {
     for (int i = 0; i < vendas.length; i++) {
       imprimirMes(i);
       for (int j = 0; j < vendas[i].length; j++) {
-        totalMes += vendas[i][j];
-        totalLoja += vendas[i][j];
+        totalVendasMes += vendas[i][j];
+        totalVendasLoja += vendas[i][j];
       }
-      System.out.printf("Total de vendas: R$ %.2f %n", totalMes);
-      totalMes = 0.0;
+      System.out.printf("Total de vendas: R$ %.2f %n", totalVendasMes);
+      totalVendasMes = 0.0;
       System.out.println();
     }
 
     for (int i = 0; i < vendas[i].length; i++) {
       System.out.print("Total anual semana " + (i + 1) + ": ");
       for (int j = 0; j < vendas.length; j++) {
-        totalSemana += vendas[j][i];
+        totalVendasSemana += vendas[j][i];
       }
-      System.out.printf("R$ %.2f %n", totalSemana);
-      totalSemana = 0.0;
+      System.out.printf("R$ %.2f %n", totalVendasSemana);
+      totalVendasSemana = 0.0;
     }
 
     System.out.println();
 
-    System.out.printf("Total de vendas da loja: R$ %.2f %n", totalLoja);
+    System.out.printf("Total de vendas da loja: R$ %.2f %n", totalVendasLoja);
   }
 
   private static void imprimirMes(int mes) {

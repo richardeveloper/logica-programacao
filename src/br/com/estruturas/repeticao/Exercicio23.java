@@ -7,10 +7,8 @@ public class Exercicio23 {
     Scanner input = new Scanner(System.in);
 
     int opcao;
-    double salario;
-    double novoSalario;
-    double ferias;
-    double decimoTerceiro;
+
+    double salario, novoSalario, ferias, decimoTerceiro;
     int mesesTrabalhados;
 
     do {

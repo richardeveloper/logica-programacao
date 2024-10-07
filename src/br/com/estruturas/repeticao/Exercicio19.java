@@ -6,15 +6,10 @@ public class Exercicio19 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    String opcao;
+    String opcao, acao;
 
-    String acao;
-    double precoCompra;
-    double precoVenda;
-    double lucro;
-    double totalLucroEmpresa = 0;
-    int qtdLucroSuperior = 0;
-    int qtdLucroInferior = 0;
+    double precoCompra, precoVenda, lucro, totalLucroEmpresa = 0;
+    int quantidadeLucroSuperior = 0, quantidadeLucroInferior = 0;
 
     do {
       System.out.println("Digite o tipo da ação: ");
@@ -29,11 +24,11 @@ public class Exercicio19 {
       lucro = precoVenda - precoCompra;
 
       if (lucro > 1000) {
-        qtdLucroSuperior++;
+        quantidadeLucroSuperior++;
       }
 
       if (lucro < 200) {
-        qtdLucroInferior++;
+        quantidadeLucroInferior++;
       }
 
       totalLucroEmpresa += lucro;
@@ -45,8 +40,8 @@ public class Exercicio19 {
       opcao = input.next();
     } while (!opcao.equalsIgnoreCase("F"));
 
-    System.out.println("Ações que lucraram mais de R$ 1000,00: " + qtdLucroSuperior);
-    System.out.println("Ações que lucraram menos de R$ 200,00: " + qtdLucroInferior);
+    System.out.println("Ações que lucraram mais de R$ 1000,00: " + quantidadeLucroSuperior);
+    System.out.println("Ações que lucraram menos de R$ 200,00: " + quantidadeLucroInferior);
     System.out.printf("Lucro total da empresa: R$ %.2f", totalLucroEmpresa);
 
     input.close();

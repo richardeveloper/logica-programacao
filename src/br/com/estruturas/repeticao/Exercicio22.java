@@ -6,10 +6,8 @@ public class Exercicio22 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    int idade;
-    double altura;
-    int totalAltura = 0;
-    double mediaAltura = 0;
+    int idade, totalAltura = 0;
+    double altura, mediaAltura = 0;
 
     do {
       System.out.println("Para sair digite uma idade menor ou igual a zero.");

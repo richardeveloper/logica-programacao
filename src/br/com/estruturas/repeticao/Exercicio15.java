@@ -8,10 +8,7 @@ public class Exercicio15 {
 
     String sexo, opiniao;
 
-    int totalPessoas = 0;
-    int quantidadeSim = 0;
-    int quantidadeNao = 0;
-    int mulheresSim = 0;
+    int totalPessoas = 0, quantidadeSim = 0, quantidadeNao = 0, mulheresSim = 0;
     double percHomensNao = 0;
 
     for (int i = 1; i <= 10; i++) {

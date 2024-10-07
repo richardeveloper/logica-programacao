@@ -8,9 +8,7 @@ public class Exercicio14 {
 
     int idade, opiniao;
 
-    int totalPessoas = 0;
-    int mediaOtimo = 0;
-    int quantidadeRegular = 0;
+    int totalPessoas = 0, mediaOtimo = 0, quantidadeRegular = 0;
     double percBom = 0.0;
 
     for (int i = 1; i <= 15; i++) {
