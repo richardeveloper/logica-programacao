@@ -27,4 +27,6 @@
 
 <div align="center">
     <img src="https://m.media-amazon.com/images/I/51WF5qbOslL.jpg" height=480 width=350 alt="Capa do livro">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://m.media-amazon.com/images/I/81PZMZlijoL._SL1500_.jpg" height=480 width=350 alt="Contra capa do livro">
 </div>
