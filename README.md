@@ -8,15 +8,15 @@
 
 ## Exercícios
  
-> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/sequencial">Estrutura sequencial</a>
+> <a href="https://github.com/richardeveloper/logica-programacao-java/tree/master/src/br/com/estruturas/sequencial">Estrutura sequencial</a>
 
-> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/condicional">Estrutura condicional</a>
+> <a href="https://github.com/richardeveloper/logica-programacao-java/tree/master/src/br/com/estruturas/condicional">Estrutura condicional</a>
 
-> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/repeticao">Estrutura de repetição</a>
+> <a href="https://github.com/richardeveloper/logica-programacao-java/tree/master/src/br/com/estruturas/repeticao">Estrutura de repetição</a>
 
-> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/vetor">Vetor</a>
+> <a href="https://github.com/richardeveloper/logica-programacao-java/tree/master/src/br/com/estruturas/vetor">Vetor</a>
 
-> <a href="https://github.com/richardeveloper/logica-programacao/tree/master/src/br/com/estruturas/matriz">Matriz</a>
+> <a href="https://github.com/richardeveloper/logica-programacao-java/tree/master/src/br/com/estruturas/matriz">Matriz</a>
 
 ## O Livro
 
