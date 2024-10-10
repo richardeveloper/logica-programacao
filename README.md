@@ -1,5 +1,11 @@
 # Lógica de Programação
 
+<div align="center">
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+</div>
+
 <p align="justify">
     Podemos dizer que este projeto foi o começo de tudo, desenvolvido entre dezembro de 2019 e meados de 2020, recuperado de um notebook antigo e trazido aqui por <b>motivos nostálgicos</b>. Esse período é significativo para mim, pois marca o início da minha caminhada no desenvolvimento de software, começando pela lógica de programação.
 <p align="justify">
